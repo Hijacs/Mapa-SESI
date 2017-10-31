@@ -1,14 +1,19 @@
-import { BrowserModule } from '@angular/platform-browser';
+import { DescripcionPage } from './../pages/descripcion/descripcion';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { BrowserModule } from '@angular/platform-browser';
 import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
-import { HomePage } from '../pages/home/home';
 import {AngularFireModule} from 'angularfire2';
 import {AngularFireAuthModule} from 'angularfire2/auth';
 import { Geolocation } from '@ionic-native/geolocation';
 import { AutSesiProvider } from '../providers/aut-sesi/aut-sesi';
+import { PaginaInicialPage } from './../pages/pagina-inicial/pagina-inicial';
+import { InicioSesionPage } from './../pages/inicio-sesion/inicio-sesion';
+import { LineasPage } from './../pages/lineas/lineas';
+import { HomePage } from '../pages/home/home';
+
 export const firebaseConfig={
   apiKey: "AIzaSyAYWoHxi4yAgozEKYFwTSR6HLUHyxRpUMo",
   authDomain: "sesi-d8563.firebaseapp.com",
@@ -20,7 +25,11 @@ export const firebaseConfig={
 @NgModule({
   declarations: [
     MyApp,
-    HomePage
+    PaginaInicialPage,
+    HomePage,
+    InicioSesionPage,
+    LineasPage,
+    DescripcionPage
   ],
   imports: [
     BrowserModule,
@@ -31,7 +40,11 @@ export const firebaseConfig={
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage
+    PaginaInicialPage,
+    HomePage,
+    InicioSesionPage,
+    LineasPage,
+    DescripcionPage
   ],
   providers: [
     StatusBar,
