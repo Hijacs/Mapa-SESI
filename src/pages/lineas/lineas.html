@@ -23,10 +23,9 @@
     <button ion-item 
     [navPush]="descripcionPage"
     [navParams]=linea
-    *ngFor="let linea of lineas"
-    >
-    
-      {{linea.nombre}}
+    *ngFor="let linea of lineas" >
+    {{linea.lin}}
+    {{linea.nombre}}
     </button>
   </ion-list>
 </ion-content>
