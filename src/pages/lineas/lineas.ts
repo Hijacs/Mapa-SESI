@@ -20,128 +20,128 @@ lineas=[
    {
    lin:"1A",
    nombre:"Bosques Finca Morelos",
-   imagen:"",
-   horario:"",
-   costo:"",
+   imagen:"./../assets/rutas/1A1.jpg",
+   horario:"4:00-22:00 hrs",
+   costo:"8 pesos",
    inicio:"",
-   fin:""
+   fin:"",
  },
  {
   lin:"1A",
    nombre:"Bosques Villa",
-   imagen:"",
-   horario:"",
-   costo:"",
+   imagen:"./../assets/rutas/1A1.jpg",
+   horario:"4:00-22:00 hrs",
+   costo:"8 pesos",
    inicio:"",
-   fin:""
+   fin:"",
  },
  {
   lin:"1A",
   nombre:"Jilotepec Parajes 66",
-  imagen:"",
-  horario:"",
-  costo:"",
+  imagen:"./../assets/rutas/1A1.jpg",
+  horario:"4:00-22:00 hrs",
+  costo:"8 pesos",
   inicio:"",
-  fin:""
+  fin:"",
 },
 {
   lin:"1A",
   nombre:"Jilotepec Parajes Directo",
-  imagen:"",
-  horario:"",
-  costo:"",
+  imagen:"./../assets/rutas/1A1.jpg",
+  horario:"4:00-22:00 hrs",
+  costo:"8 pesos",
   inicio:"",
-  fin:""
+  fin:"",
 },
 {
   lin:"1A",
   nombre:"Jilotepec UNITEC",
-  imagen:"",
-  horario:"",
-  costo:"",
+  imagen:"./../assets/rutas/1A1.jpg",
+  horario:"4:00-22:00 hrs",
+  costo:"8 pesos",
   inicio:"",
-  fin:""
+  fin:"",
 },
 {
   lin:"1A",
   nombre:"Jilotepec UNITEC directo",
-  imagen:"",
-  horario:"",
-  costo:"",
+  imagen:"./../assets/rutas/1A1.jpg",
+  horario:"4:00-22:00 hrs",
+  costo:"8 pesos",
   inicio:"",
-  fin:""
+  fin:"",
 },
 {
   lin:"1A",
   nombre:"Lomas UNITEC",
-  imagen:"",
-  horario:"",
-  costo:"",
+  imagen:"./../assets/rutas/1A1.jpg",
+  horario:"4:00-22:00 hrs",
+  costo:"8 pesos",
   inicio:"",
-  fin:""
+  fin:"",
 },
 {
   lin:"1A",
   nombre:"Lomas Parajes",
-  imagen:"",
-  horario:"",
-  costo:"",
+  imagen:"./../assets/rutas/1A1.jpg",
+  horario:"4:00-22:00 hrs",
+  costo:"8 pesos",
   inicio:"",
-  fin:""
+  fin:"",
 },
 {
   lin:"1A",
   nombre:"Morelos Durango Felix Candela",
-  imagen:"",
-  horario:"",
-  costo:"",
+  imagen:"./../assets/rutas/1A1.jpg",
+  horario:"4:00-22:00 hrs",
+  costo:"8 pesos",
   inicio:"",
-  fin:""
+  fin:"",
 },
 {
   lin:"1A",
   nombre:"Morelos Eco2000",
-  imagen:"",
-  horario:"",
-  costo:"",
+  imagen:"./../assets/rutas/1A1.jpg",
+  horario:"4:00-22:00 hrs",
+  costo:"8 pesos",
   inicio:"",
-  fin:""
+  fin:"",
 },
 {
   lin:"1A",
   nombre:"Paseo Parajes (express)",
-  imagen:"",
-  horario:"",
-  costo:"",
+  imagen:"./../assets/rutas/1A1.jpg",
+  horario:"4:00-22:00 hrs",
+  costo:"8 pesos",
   inicio:"",
-  fin:""
+  fin:"",
 },
 {
   lin:"1A",
   nombre:"Paseo UNITEC",
-  imagen:"",
-  horario:"",
-  costo:"",
+  imagen:"./../assets/rutas/1A1.jpg",
+  horario:"4:00-22:00 hrs",
+  costo:"8 pesos",
   inicio:"",
-  fin:""
+  fin:"",
 },
 {
   lin:"1B",
   nombre:"Av de las torres directo",
-  imagen:"",
-  horario:"",
-  costo:"",
+  imagen:"./../assets/rutas/1B1.jpg",
+  horario:"4:00-22:00 hrs",
+  costo:"8 pesos",
   inicio:"",
-  fin:""
+  fin:"",
 },
 {
   lin:"1B",
   nombre:"Express Av de las torres",
-  imagen:"",
-  horario:"",
-  costo:"",
+  imagen:"./../assets/rutas/1B1.jpg",
+  horario:"4:00-22:00 hrs",
+  costo:"8 pesos",
   inicio:"",
-  fin:""
+  fin:"",
 },
 {
   lin:"2B",
@@ -196,8 +196,7 @@ lineas=[
   costo:"",
   inicio:"",
   fin:""
-}
-,
+},
 {
   lin:"2L",
   nombre:"Periodista",
@@ -404,11 +403,195 @@ lineas=[
   costo:"",
   inicio:"",
   fin:""
-}
-];
-LineasPrincipales=[
+},
 {
-  nombre:"1A"
+  lin:"8B",
+  nombre:"Seguro Nuevo",
+  imagen:"",
+  horario:"",
+  costo:"",
+  inicio:"",
+  fin:""
+},
+{
+  lin:"Linea 10",
+  nombre:"Avicola abajo",
+  imagen:"",
+  horario:"",
+  costo:"",
+  inicio:"",
+  fin:""
+},
+{
+  lin:"Linea 10",
+  nombre:"Avicola Arriba",
+  imagen:"",
+  horario:"",
+  costo:"",
+  inicio:"",
+  fin:""
+},
+{
+  lin:"Linea 10",
+  nombre:"Rancho derecho",
+  imagen:"",
+  horario:"",
+  costo:"",
+  inicio:"",
+  fin:""
+},
+{
+  lin:"Linea 10",
+  nombre:"Rancho izquierda",
+  imagen:"",
+  horario:"",
+  costo:"",
+  inicio:"",
+  fin:""
+},
+{
+  lin:"Linea 10",
+  nombre:"Rancho poleo",
+  imagen:"",
+  horario:"",
+  costo:"",
+  inicio:"",
+  fin:""
+},
+{
+  lin:"Linea 10",
+  nombre:"Retiro",
+  imagen:"",
+  horario:"",
+  costo:"",
+  inicio:"",
+  fin:""
+},
+{
+  lin:"Linea 10",
+  nombre:"Sarabia abajo",
+  imagen:"",
+  horario:"",
+  costo:"",
+  inicio:"",
+  fin:""
+},
+{
+  lin:"Linea 10",
+  nombre:"Saravia arriba",
+  imagen:"",
+  horario:"",
+  costo:"",
+  inicio:"",
+  fin:""
+},
+{
+  lin:"Circumvalación",
+  nombre:"",
+  imagen:"",
+  horario:"",
+  costo:"",
+  inicio:"",
+  fin:""
+},
+{
+  lin:"Mercado de abastos",
+  nombre:"Flores Magón",
+  imagen:"",
+  horario:"",
+  costo:"",
+  inicio:"",
+  fin:""
+},
+{
+  lin:"Mercado de abastos",
+  nombre:"Galeana",
+  imagen:"",
+  horario:"",
+  costo:"",
+  inicio:"",
+  fin:""
+},
+{
+  lin:"Mercado de abastos",
+  nombre:"Los ojitos",
+  imagen:"",
+  horario:"",
+  costo:"",
+  inicio:"",
+  fin:""
+},
+{
+  lin:"Mercado de abastos",
+  nombre:"Palo Chino",
+  imagen:"",
+  horario:"",
+  costo:"",
+  inicio:"",
+  fin:""
+},
+{
+  lin:"Universitaria",
+  nombre:"Flores Magón",
+  imagen:"",
+  horario:"",
+  costo:"",
+  inicio:"",
+  fin:""
+},
+{
+  lin:"PU",
+  nombre:"Granjero",
+  imagen:"",
+  horario:"",
+  costo:"",
+  inicio:"",
+  fin:""
+},
+{
+  lin:"PU",
+  nombre:"Km30",
+  imagen:"",
+  horario:"",
+  costo:"",
+  inicio:"",
+  fin:""
+},
+{
+  lin:"PU",
+  nombre:"Lomas",
+  imagen:"",
+  horario:"",
+  costo:"",
+  inicio:"",
+  fin:""
+},
+{
+  lin:"Valle de Juarez",
+  nombre:"Riveras 1-4",
+  imagen:"",
+  horario:"",
+  costo:"",
+  inicio:"",
+  fin:""
+},
+{
+  lin:"Valle de Juarez",
+  nombre:"Riveras 6-8",
+  imagen:"",
+  horario:"",
+  costo:"",
+  inicio:"",
+  fin:""
+},
+{
+  lin:"Valle de Juarez",
+  nombre:"Tierra Nueva segunda etapa",
+  imagen:"",
+  horario:"",
+  costo:"",
+  inicio:"",
+  fin:""
 }
 ];
 
