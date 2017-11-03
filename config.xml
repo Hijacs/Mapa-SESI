@@ -80,14 +80,14 @@
     <plugin name="cordova-plugin-geolocation" spec="^2.4.3">
         <variable name="GEOLOCATION_USAGE_DESCRIPTION" value="To locate you" />
     </plugin>
-    <plugin name="cordova-plugin-googlemaps" spec="^2.0.11">
-        <variable name="API_KEY_FOR_ANDROID" value="AIzaSyADZelG74lgvC5kOeLLYJ6y1bERHgmRA5A" />
-        <variable name="API_KEY_FOR_IOS" value="AIzaSyD5HsHJKJ0GpaigpsukxxMlMfwp1GC8dF0" />
-    </plugin>
     <plugin name="ionic-plugin-keyboard" spec="^2.2.1" />
     <plugin name="cordova-plugin-whitelist" spec="^1.3.1" />
     <plugin name="cordova-plugin-device" spec="^1.1.4" />
     <plugin name="cordova-plugin-splashscreen" spec="^4.0.3" />
     <plugin name="cordova-plugin-ionic-webview" spec="^1.1.16" />
     <plugin name="cordova-plugin-firebase" spec="^0.1.24" />
+    <plugin name="cordova-plugin-googlemaps" spec="^2.0.11">
+        <variable name="API_KEY_FOR_ANDROID" value=" AIzaSyC1DTMlN8GNfc-BfrHcTiA8gS681XtWdk4" />
+        <variable name="API_KEY_FOR_IOS" value="AIzaSyCEbZKzXffOgokRZCpUZ5k98MSt7rdxwtg" />
+    </plugin>
 </widget>
