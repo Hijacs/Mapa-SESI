@@ -1,0 +1,67 @@
+<ion-header>
+  <ion-navbar color="primary">
+
+    <button ion-button menuToggle class="FloatLeft">
+    <ion-icon name="apps" id="BotonInicio">
+      
+    </ion-icon>
+    </button>
+    
+    <ion-title class="FloatLeft"> Mapa </ion-title>
+
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+  <!-- SideMenu -->
+  <ion-menu [content]="content">
+     <ion-header>
+          <ion-toolbar>
+
+            <ion-title> Menú </ion-title>
+
+          </ion-toolbar>
+     </ion-header> <br><br><br><br>
+
+
+     <!--Los números de paginas se muestran en el archivo ts -->
+    <ion-list>
+      <button ion-item > Mapa </button>
+
+      <button ion-item (click)="ChangePage(1)"> Línea de Camiones
+      </button>
+
+      <button ion-item (click)="ChangePage(2)">
+        Favoritos
+      </button>
+
+      <button ion-item (click)="ChangePage(3)">
+        Historial
+      </button>
+
+      <button ion-item (click)="ChangePage(4)">
+        Premium
+      </button>
+
+      <button ion-item (click)="ChangePage(5)">
+        Comentarios
+      </button>
+
+      <button ion-item (click)="ChangePage(6)">
+        Configuración
+      </button>
+
+      <button ion-item menuToggle>
+        Salir
+      </button>
+
+    </ion-list>
+  </ion-menu>  
+  
+  <ion-nav id="nav" #content [root]="rootPage"></ion-nav>
+
+ <!-- Div del mapa -->
+  <div #map id="map"></div>
+
+</ion-content>
