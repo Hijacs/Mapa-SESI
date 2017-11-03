@@ -16,7 +16,7 @@ export class AutSesiProvider {
   constructor(public http: Http,private firebaseAuth:AngularFireAuth) {
     console.log('Hello AutSesiProvider Provider');
   }
-  registrarse(correo:string,clave:string){
+    registrarse(correo:string,clave:string){
     this.firebaseAuth
     .auth
     .createUserWithEmailAndPassword(correo,clave)

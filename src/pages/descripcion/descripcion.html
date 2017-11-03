@@ -18,11 +18,26 @@
     <ion-row>
       <ion-col class="centrado">
         {{descripcion.nombre}}
-      </ion-col>   
+      </ion-col>
     </ion-row>
     <ion-row>
       <ion-col class="centrado">
         <ion-img width="158" height="142" [src]="descripcion.imagen"></ion-img>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col class="centrado">
+        <p>Horario:</p>{{descripcion.horario}}
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col class="centrado">
+        <p>Costo:</p>{{descripcion.costo}}
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col class="centrado">
+        <button ion-button outline>Ir al mapa</button>
       </ion-col>
     </ion-row>
   </ion-grid>

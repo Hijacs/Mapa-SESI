@@ -24,7 +24,7 @@ lineas=[
    horario:"4:00-22:00 hrs",
    costo:"8 pesos",
    inicio:"",
-   fin:"",
+   fin:""
  },
  {
   lin:"1A",
