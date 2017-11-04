@@ -1,5 +1,6 @@
+import { KMLService } from './../pages/home/home';
 import { DescripcionPage } from './../pages/descripcion/descripcion';
-import { ErrorHandler, NgModule } from '@angular/core';
+import { ErrorHandler, NgModule} from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { BrowserModule } from '@angular/platform-browser';
@@ -8,6 +9,7 @@ import { MyApp } from './app.component';
 import {AngularFireModule} from 'angularfire2';
 import {AngularFireAuthModule} from 'angularfire2/auth';
 import { Geolocation } from '@ionic-native/geolocation';
+import { GoogleMaps } from '@ionic-native/google-maps';
 import { AutSesiProvider } from '../providers/aut-sesi/aut-sesi';
 import { PaginaInicialPage } from './../pages/pagina-inicial/pagina-inicial';
 import { InicioSesionPage } from './../pages/inicio-sesion/inicio-sesion';
@@ -50,6 +52,9 @@ export const firebaseConfig={
     StatusBar,
     SplashScreen,
     Geolocation,
+    GoogleMaps,
+    /*HomePage,
+    KMLService,*/
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     AutSesiProvider
   ]

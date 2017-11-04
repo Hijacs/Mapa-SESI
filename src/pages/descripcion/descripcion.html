@@ -12,9 +12,8 @@
 
 </ion-header>
 
-
-<ion-content padding class="sesifondo">
-  <ion-grid>
+<ion-content  padding class="sesifondo">
+  <ion-grid >
     <ion-row>
       <ion-col class="centrado">
         {{descripcion.nombre}}
@@ -37,9 +36,9 @@
     </ion-row>
     <ion-row>
       <ion-col class="centrado">
-        <button ion-button outline>Ir al mapa</button>
+        <button ion-button (click)="KML()" outline >Ir al Mapa</button>
       </ion-col>
     </ion-row>
   </ion-grid>
 </ion-content>
- 
+
