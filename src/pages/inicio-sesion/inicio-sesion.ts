@@ -1,5 +1,7 @@
+import { AutSesiProvider } from './../../providers/aut-sesi/aut-sesi';
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { NgForm } from '@angular/forms';
 
 /**
  * Generated class for the InicioSesionPage page.
@@ -15,9 +17,14 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class InicioSesionPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController, public navParams: NavParams,
+  public autSesi:AutSesiProvider
+  ) {
   }
 
+  registrarUsuario(formulario: NgForm){
+    this.autSesi.registrarse(formulario.value.correo,formulario.value.acceso);
+  }
   ionViewDidLoad() {
     console.log('ionViewDidLoad InicioSesionPage');
   }

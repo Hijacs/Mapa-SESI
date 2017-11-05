@@ -15,12 +15,20 @@ import { LineasPage } from './../pages/lineas/lineas';
 import { HomePage } from '../pages/home/home';
 
 export const firebaseConfig={
-  apiKey: "AIzaSyAYWoHxi4yAgozEKYFwTSR6HLUHyxRpUMo",
+  
+  apiKey: "AIzaSyBAO8dPaEIUOO5PMHw58fdSbw306EwunDA",
+  authDomain: "suben2-5351.firebaseapp.com",
+  databaseURL: "https://suben2-5351.firebaseio.com",
+  projectId: "suben2-5351",
+  storageBucket: "suben2-5351.appspot.com",
+  messagingSenderId: "292512067222"
+
+  /*apiKey: "AIzaSyAYWoHxi4yAgozEKYFwTSR6HLUHyxRpUMo",
   authDomain: "sesi-d8563.firebaseapp.com",
   databaseURL: "https://sesi-d8563.firebaseio.com",
   projectId: "sesi-d8563",
   storageBucket: "sesi-d8563.appspot.com",
-  messagingSenderId: "496838532341"
+  messagingSenderId: "496838532341"*/
 };
 @NgModule({
   declarations: [
