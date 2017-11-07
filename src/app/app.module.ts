@@ -1,4 +1,3 @@
-import { KMLService } from './../pages/home/home';
 import { DescripcionPage } from './../pages/descripcion/descripcion';
 import { ErrorHandler, NgModule} from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';

@@ -2,7 +2,6 @@ import { GoogleMaps } from '@ionic-native/google-maps';
 import { Component, ViewChild, ElementRef, Injectable } from '@angular/core';
 import { NavController, AlertController } from 'ionic-angular';
 import { Geolocation } from '@ionic-native/geolocation';
- 
 
 declare var google;
 //declare var map;
@@ -14,40 +13,64 @@ declare var google;
 
 @Injectable()
 export class HomePage {
- /*
-  @ViewChild('map') mapElement: ElementRef;*/
-  map: GoogleMaps;
-
-  static mapa;
  
-  constructor(public navCtrl: NavController, public geolocation: Geolocation, public alertCtrl: AlertController, public googleMaps: GoogleMaps) {  }
+  /*@ViewChild('map') mapElement: ElementRef;*/
+  //map: GoogleMaps;
+  public static mapa;
+  //mapa: GoogleMaps;
+ 
+  constructor(public navCtrl: NavController, public geolocation: Geolocation, public alertCtrl: AlertController, public googleMaps: GoogleMaps) {  
+         // this.map=this.initMap();
+    }
  
   ionViewDidLoad(){
-    HomePage.mapa=this.map = this.initMap();
-    //this.InsertarKML();
+    window.alert('ionView');
+    HomePage.mapa=this.initMap();
+    window.alert('Verga puto = '+HomePage.mapa);
+    return HomePage.mapa;
   }
-
-  /*loadMap(){
-    var map = new google.maps.Map(document.getElementById('map'), {
-      center: {lat: 31.7333300, lng: -106.4833300},
-      zoom: 12
-    });
-  }*/
   
 //PARA ABAJO
-  initMap() {
-    this.map = new google.maps.Map(document.getElementById('map'), {
+  initMap(link=null) {
+    //window.alert('Inicio '+this.map);
+    
+    HomePage.mapa /*= this.map*/ = new google.maps.Map(document.getElementById('map'), {
       center: {lat: 31.7333300, lng: -106.4833300},
       zoom: 15
     });
+
+    window.alert('initMap 1.1 '+HomePage.mapa);
+
+    if(link=='ubicacion'){
+      this.Ubicacion();
+      this.InsertarKML(HomePage.mapa);
+    }
     
-    return this.map;
+    /*if(link=='insertar'){
+      this.InsertarKML(this.map);
+      window.alert('0insertar '+HomePage.mapa);
+    }*/
+    return HomePage.mapa;
     //var infoWindow = new google.maps.InfoWindow({map: map});
   }
   
+  InsertarKML(map){
+    window.alert('Insertar 1 '+/*this.*/map);
+    //this.initMap();
+    //window.alert('Marca 2 '+/*this.*/map);
+    var ctaLayer = new google.maps.KmlLayer({
+              url: 'https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/1A%20Bosques%20Finca%20Morelos.kml',
+              map: map/*this.map*/
+            });
+
+    //window.alert('1 Insertar '+/*this.*/map);
+  }
+
   // Modelo de geolicalización.
   Ubicacion(){
-    if (navigator.geolocation) {
+    window.alert('Ubicacion 1 '+HomePage.mapa);
+
+   if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(function(position) {
         var pos = {
           lat: position.coords.latitude,
@@ -56,21 +79,21 @@ export class HomePage {
         
         var marker = new google.maps.Marker({
           position: pos,
-          map: this.map,
+          map: HomePage.mapa,
           title: "Tu posición"
-        });    
-
-        this.map.setCenter(pos);
+        });
+        
+        HomePage.mapa.setCenter(pos);
       }, function() {
-        var infoWindow = new google.maps.InfoWindow({map: this.map});
-        infoWindow.setPosition(this.map.getCenter());
+        var infoWindow = new google.maps.InfoWindow({map: HomePage.mapa});
+        infoWindow.setPosition(HomePage.mapa.getCenter());
         infoWindow.setContent(true ?
                               'No se permite geolocalización.' :
                               'El navegador no soporta geolocalización.');
       });
   } else {
     // No se permite Geolocalización
-    var infoWindow = new google.maps.InfoWindow({map: this.map});
+    var infoWindow = new google.maps.InfoWindow({map: HomePage.mapa});
     infoWindow.setPosition(HomePage.mapa.getCenter());
     infoWindow.setContent(false ?
                           'No se permite geolocalización.' :
@@ -78,31 +101,4 @@ export class HomePage {
   }
 }
  //PARA ARRIBA
-
- presentAlert() {
-  let alert = this.alertCtrl.create({
-    title: 'Si jala prro',
-    subTitle: '10% of battery remaining',
-    buttons: ['Dismiss']
-  });
-  alert.present();
-}
-
-  InsertarKML(){
-    //this.presentAlert();
-    var ctaLayer;
-
-    ctaLayer = new google.maps.KmlLayer({
-              url: 'https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/1A%20Bosques%20Finca%20Morelos.kml',
-              map: this.map
-            });
-
-    this.presentAlert();
-  }
-
-}
-
-@Injectable()
-export class KMLService extends HomePage{
-  
 }
