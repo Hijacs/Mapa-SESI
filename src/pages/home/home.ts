@@ -25,13 +25,13 @@ export class HomePage {
  
   ionViewDidLoad(){
     window.alert('ionView');
-    HomePage.mapa=this.initMap();
+    HomePage.mapa=this.initMap(null);
     window.alert('Verga puto = '+HomePage.mapa);
     return HomePage.mapa;
   }
   
 //PARA ABAJO
-  initMap(link=null) {
+  initMap(link:any) {
     //window.alert('Inicio '+this.map);
     
     HomePage.mapa /*= this.map*/ = new google.maps.Map(document.getElementById('map'), {
