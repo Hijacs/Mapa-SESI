@@ -24,9 +24,9 @@ export class HomePage {
     }
  
   ionViewDidLoad(){
-    window.alert('ionView');
+    //window.alert('ionView');
     HomePage.mapa=this.initMap(null);
-    window.alert('Verga puto = '+HomePage.mapa);
+    window.alert('ionView = '+HomePage.mapa);
     return HomePage.mapa;
   }
   
@@ -39,7 +39,7 @@ export class HomePage {
       zoom: 15
     });
 
-    window.alert('initMap 1.1 '+HomePage.mapa);
+    //window.alert('initMap = '+HomePage.mapa);
 
     if(link=='ubicacion'){
       this.Ubicacion();
@@ -55,11 +55,12 @@ export class HomePage {
   }
   
   InsertarKML(map){
-    window.alert('Insertar 1 '+/*this.*/map);
+    //window.alert('Insertar 1 '+/*this.*/map);
     //this.initMap();
     //window.alert('Marca 2 '+/*this.*/map);
     var ctaLayer = new google.maps.KmlLayer({
-              url: 'https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/1A%20Bosques%20Finca%20Morelos.kml',
+              url: 'https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml',
+              //url: 'https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/1A%20Bosques%20Finca%20Morelos.kml',
               map: map/*this.map*/
             });
 
@@ -68,7 +69,7 @@ export class HomePage {
 
   // Modelo de geolicalización.
   Ubicacion(){
-    window.alert('Ubicacion 1 '+HomePage.mapa);
+    //window.alert('Ubicacion 1 '+HomePage.mapa);
 
    if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(function(position) {
