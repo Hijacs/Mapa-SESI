@@ -1,8 +1,8 @@
-import { GoogleMaps } from '@ionic-native/google-maps';
 import { Component, ViewChild, ElementRef } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 import { HomePage } from './../home/home';
+import * as $ from 'jquery';
 
 /**
  * Generated class for the DescripcionPage page.
@@ -23,19 +23,22 @@ descripcion:Object;
 map:Object;
   
 constructor(public navCtrl: NavController, public navParams: NavParams,
-   public homePage: HomePage, public googleMaps: GoogleMaps,
-  ) {
+   public homePage: HomePage) {
   this.descripcion=navParams.data;
   this.map=this.map;
   }
 
-  KML(){
-    //var map;
-    //this.navCtrl.setRoot(HomePage);
-    /*this.map =*/ this.homePage.ionViewDidLoad();
-    window.alert('map = '+this.map);
+  KML(nKml){
     
-    this.homePage.InsertarKML(this.map);
+    this.navCtrl.setRoot(HomePage);
+    
+    $(document).ready(() => {
+        this.map = this.homePage.ionViewDidLoad();
+
+        //window.alert('map = '+this.map);
+        
+        this.homePage.InsertarKML(this.map, nKml);
+    });
   }
 
 }

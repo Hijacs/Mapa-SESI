@@ -1,4 +1,3 @@
-import { GoogleMaps } from '@ionic-native/google-maps';
 import { Component, ViewChild, ElementRef, Injectable } from '@angular/core';
 import { NavController, AlertController } from 'ionic-angular';
 import { Geolocation } from '@ionic-native/geolocation';
@@ -14,50 +13,44 @@ declare var google;
 @Injectable()
 export class HomePage {
  
-  /*@ViewChild('map') mapElement: ElementRef;*/
-  //map: GoogleMaps;
+  @ViewChild('map') mapElement: ElementRef;
   public static mapa;
-  //mapa: GoogleMaps;
  
-  constructor(public navCtrl: NavController, public geolocation: Geolocation, public alertCtrl: AlertController, public googleMaps: GoogleMaps) {  
-         // this.map=this.initMap();
+  constructor(public navCtrl: NavController, public geolocation: Geolocation, 
+    public alertCtrl: AlertController) {  
+         
     }
  
   ionViewDidLoad(){
-    //window.alert('ionView');
-    HomePage.mapa=this.initMap(null);
+    HomePage.mapa=this.initMap();
     window.alert('ionView = '+HomePage.mapa);
     return HomePage.mapa;
   }
   
 //PARA ABAJO
-  initMap(link:any) {
+  initMap(dir:any=null) {
     //window.alert('Inicio '+this.map);
     
-    HomePage.mapa /*= this.map*/ = new google.maps.Map(document.getElementById('map'), {
+    HomePage.mapa = new google.maps.Map(document.getElementById('map'), {
       center: {lat: 31.7333300, lng: -106.4833300},
       zoom: 15
     });
 
     //window.alert('initMap = '+HomePage.mapa);
 
-    if(link=='ubicacion'){
+    if(dir=='ubicacion'){
       this.Ubicacion();
-      this.InsertarKML(HomePage.mapa);
+      //this.InsertarKML(HomePage.mapa);
     }
     
-    /*if(link=='insertar'){
-      this.InsertarKML(this.map);
-      window.alert('0insertar '+HomePage.mapa);
-    }*/
     return HomePage.mapa;
     //var infoWindow = new google.maps.InfoWindow({map: map});
   }
   
-  InsertarKML(map){
-    //window.alert('Insertar 1 '+/*this.*/map);
-    //this.initMap();
-    //window.alert('Marca 2 '+/*this.*/map);
+  InsertarKML(map, nKml:any){
+
+    var dir:string;
+
     var ctaLayer = new google.maps.KmlLayer({
               url: 'https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml',
               //url: 'https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/1A%20Bosques%20Finca%20Morelos.kml',
