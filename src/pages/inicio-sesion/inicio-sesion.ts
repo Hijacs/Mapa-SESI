@@ -3,15 +3,8 @@ import { IonicPage, NavController, NavParams, AlertController } from 'ionic-angu
 import { NgForm } from '@angular/forms';
 import { AutSesiProvider } from './../../providers/aut-sesi/aut-sesi';
 
+@IonicPage() 
 
-/**
- * Generated class for the InicioSesionPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-
-@IonicPage()
 @Component({
   selector: 'page-inicio-sesion',
   templateUrl: 'inicio-sesion.html',
@@ -26,7 +19,7 @@ export class InicioSesionPage {
   ) {
   }
 
-  usuarioNuevo(correo:string, acceso:string){
+  usuarioNuevo(){
    this.autSesi.registrarse(this.usuario.email,this.usuario.password)
    .then((usuario)=>{
      let alert=this.alertCtrl.create({

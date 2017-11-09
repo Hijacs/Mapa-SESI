@@ -1,17 +1,15 @@
+import { AlertController } from 'ionic-angular';
 import { Injectable } from '@angular/core';
-//import {Observable} from 'rxjs/Observable';
-//import * as firebase from 'firebase/app';
+import {Observable} from 'rxjs/Observable';
+import * as firebase from 'firebase/app';
 import { AngularFireAuth } from 'angularfire2/auth';
-/*
-  Generated class for the AutSesiProvider provider.
 
-  See https://angular.io/guide/dependency-injection for more info on providers
-  and Angular DI.
-*/
 @Injectable()
 export class AutSesiProvider {
+    [x: string]: any;
 
-  constructor(private miAut:AngularFireAuth) {
+  constructor(private miAut:AngularFireAuth,
+public alertCtrl:AlertController) {
     console.log('Hola AutSesiProvider Provider');
   }
 
@@ -21,7 +19,6 @@ export class AutSesiProvider {
         return this.miAut.auth.createUserWithEmailAndPassword(email,password)
         .then((res)=>{console.log('Existe un error:',res.message);})
         .catch(err=>Promise.reject(err))
-
     }
    
 iniciarSesion(email:string,password:string){
@@ -30,10 +27,23 @@ iniciarSesion(email:string,password:string){
     .catch(err=>Promise.reject(err)
     )
 } 
- /*
+
+get sesion(){
+    return this.miAut.authState;
+}
+ 
 cerrarSesion(){
-    this.firebaseAuth
+    this.miAut
     .auth
-    .signOut();
-}*/
+    .signOut()
+    .then((res)=>{
+       /* let alert=this.alertCtrl.create({
+         title:'Sesion',
+         message:'La sesión ha sido cerrada satisfactoriamente',
+         buttons:['Aceptar']
+        });
+    alert.present();*/})
+
+    
+}
 }
