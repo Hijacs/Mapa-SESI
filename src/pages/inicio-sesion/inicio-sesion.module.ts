@@ -7,7 +7,7 @@ import { InicioSesionPage } from './inicio-sesion';
     InicioSesionPage,
   ],
   imports: [
-    IonicPageModule.forChild(InicioSesionPage),
+    IonicPageModule.forChild(InicioSesionPage)
   ],
 })
 export class InicioSesionPageModule {}

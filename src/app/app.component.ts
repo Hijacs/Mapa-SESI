@@ -27,6 +27,7 @@ export class MyApp {
       statusBar.styleDefault();
       splashScreen.hide();
     });
+    
   }
   irAPagina(pagina){
     this.paginas.setRoot(pagina);

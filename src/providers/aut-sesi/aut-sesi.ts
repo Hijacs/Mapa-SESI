@@ -1,8 +1,6 @@
 import { Injectable } from '@angular/core';
-import { Http } from '@angular/http';
-import 'rxjs/add/operator/map';
-import {Observable} from 'rxjs/Observable';
-import * as firebase from 'firebase/app';
+//import {Observable} from 'rxjs/Observable';
+//import * as firebase from 'firebase/app';
 import { AngularFireAuth } from 'angularfire2/auth';
 /*
   Generated class for the AutSesiProvider provider.
@@ -13,32 +11,29 @@ import { AngularFireAuth } from 'angularfire2/auth';
 @Injectable()
 export class AutSesiProvider {
 
-  constructor(public http: Http,private firebaseAuth:AngularFireAuth) {
-    console.log('Hello AutSesiProvider Provider');
+  constructor(private miAut:AngularFireAuth) {
+    console.log('Hola AutSesiProvider Provider');
   }
-    registrarse(correo:string,clave:string){
-    this.firebaseAuth
-    .auth
-    .createUserWithEmailAndPassword(correo,clave)
-    .then(value=>{console.log('Ok, registrado',value)})
-    .catch(
-        err=>{console.log('Existe un error:',err.message);
-        });
-}
-iniciarSesion(correo:string,clave:string){
-    this.firebaseAuth
-    .auth
-    .signInWithEmailAndPassword(correo,clave)
-    .then(value=>{
-        console.log('Bien, has ingresado');
-    })
-    .catch(err=>{
-        console.log('Algo no anda bien, codigo de error:',err.message);
-    });
+
+  
+   registrarse(email:string,password:string){
+   
+        return this.miAut.auth.createUserWithEmailAndPassword(email,password)
+        .then((res)=>{console.log('Existe un error:',res.message);})
+        .catch(err=>Promise.reject(err))
+
+    }
+   
+iniciarSesion(email:string,password:string){
+    return this.miAut.auth.signInWithEmailAndPassword(email,password)
+    .then(email=>Promise.resolve(email))
+    .catch(err=>Promise.reject(err)
+    )
 } 
+ /*
 cerrarSesion(){
     this.firebaseAuth
     .auth
     .signOut();
-}
+}*/
 }

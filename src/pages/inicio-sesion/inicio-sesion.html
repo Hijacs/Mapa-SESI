@@ -9,18 +9,24 @@
       <ion-title>Iniciar SESIón</ion-title>
     </ion-navbar>
   
-  </ion-header>
+</ion-header>
   
   
-  <ion-content class="sesifondo">
-    <form #formulario="ngForm">
+  <ion-content>
+    <form>
       <ion-row class="sesifondo">
         <ion-col>
           <ion-item  class="sesifondo">
             <ion-label floating>
             Correo electrónico
             </ion-label>
-              <ion-input type="email" required name="correo" ngModel></ion-input>
+              <ion-input
+               [(ngModel)]="usuario.email"
+                type="email" 
+                name="email"
+                autocapitalize="off"
+                required >
+              </ion-input>
           </ion-item>
         </ion-col>
       </ion-row >
@@ -31,7 +37,10 @@
             <ion-label floating>
             Contraseña
             </ion-label>
-            <ion-input type="password" required name="acceso" ngModel [minlength]="8">
+            <ion-input [(ngModel)]="usuario.password" 
+            type="password" 
+             name="password"
+             required  >
               
             </ion-input>
           </ion-item>
@@ -58,7 +67,7 @@
         <ion-col>
           <ion-item  class="sesifondo">
             <button ion-button block (click)="usuarioNuevo()">
-              Invitado
+              Registrarse
             </button>
           </ion-item>
         </ion-col>
