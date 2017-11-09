@@ -35,7 +35,7 @@ export class MyApp {
         if (sesion){
           this.paginas.setRoot(LineasPage);
         } else
-        {this.paginas.setRoot(InicioSesionPage)}
+        {this.paginas.setRoot(PaginaInicialPage)}
       });
       /*.Session.subscribe(session=>{
 

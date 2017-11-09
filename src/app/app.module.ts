@@ -39,7 +39,7 @@ apiKey: "AIzaSyBDcTLGhx6yzgZlXCrjyBz6DgDdvnqLDu0",
   databaseURL: "https://sesi-d8563.firebaseio.com",
   projectId: "sesi-d8563",
   storageBucket: "sesi-d8563.appspot.com",
-  messagingSenderId: "496838532341"
+  messagingSenderId: "496838532341"*/
 };
 @NgModule({
   declarations: [
@@ -54,7 +54,7 @@ apiKey: "AIzaSyBDcTLGhx6yzgZlXCrjyBz6DgDdvnqLDu0",
     BrowserModule,
     IonicModule.forRoot(MyApp),
     AngularFireModule.initializeApp(firebaseConfig),
-    AngularFireAuthModule
+    AngularFireAuthModule,
     AngularFireDatabaseModule
   ],
   bootstrap: [IonicApp],
