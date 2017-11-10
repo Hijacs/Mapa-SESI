@@ -24,7 +24,8 @@ lineas=[
    horario:"4:00-22:00 hrs",
    costo:"8 pesos",
    inicio:"",
-   fin:""
+   fin:"",
+   kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
  },
  {
   lin:"1A",
@@ -34,6 +35,7 @@ lineas=[
    costo:"8 pesos",
    inicio:"",
    fin:"",
+   kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
  },
  {
   lin:"1A",
@@ -43,6 +45,7 @@ lineas=[
   costo:"8 pesos",
   inicio:"",
   fin:"",
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
 },
 {
   lin:"1A",
@@ -52,6 +55,8 @@ lineas=[
   costo:"8 pesos",
   inicio:"",
   fin:"",
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
+
 },
 {
   lin:"1A",
@@ -61,6 +66,7 @@ lineas=[
   costo:"8 pesos",
   inicio:"",
   fin:"",
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
 },
 {
   lin:"1A",
@@ -70,6 +76,7 @@ lineas=[
   costo:"8 pesos",
   inicio:"",
   fin:"",
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
 },
 {
   lin:"1A",
@@ -79,6 +86,7 @@ lineas=[
   costo:"8 pesos",
   inicio:"",
   fin:"",
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
 },
 {
   lin:"1A",
@@ -88,6 +96,7 @@ lineas=[
   costo:"8 pesos",
   inicio:"",
   fin:"",
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
 },
 {
   lin:"1A",
@@ -97,6 +106,7 @@ lineas=[
   costo:"8 pesos",
   inicio:"",
   fin:"",
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
 },
 {
   lin:"1A",
@@ -106,6 +116,7 @@ lineas=[
   costo:"8 pesos",
   inicio:"",
   fin:"",
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
 },
 {
   lin:"1A",
@@ -115,6 +126,7 @@ lineas=[
   costo:"8 pesos",
   inicio:"",
   fin:"",
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
 },
 {
   lin:"1A",
@@ -124,6 +136,7 @@ lineas=[
   costo:"8 pesos",
   inicio:"",
   fin:"",
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
 },
 {
   lin:"1B",
@@ -133,7 +146,8 @@ lineas=[
   costo:"8 pesos",
   inicio:"",
   fin:"",
-},
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
+  },
 {
   lin:"1B",
   nombre:"Express Av de las torres",
@@ -142,6 +156,7 @@ lineas=[
   costo:"8 pesos",
   inicio:"",
   fin:"",
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
 },
 {
   lin:"2B",
@@ -150,7 +165,8 @@ lineas=[
   horario:"",
   costo:"",
   inicio:"",
-  fin:""
+  fin:"",
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
 },
 {
   lin:"2B",
@@ -159,7 +175,8 @@ lineas=[
   horario:"",
   costo:"",
   inicio:"",
-  fin:""
+  fin:"",
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
 },
 {
   lin:"2B",
@@ -168,7 +185,8 @@ lineas=[
   horario:"",
   costo:"",
   inicio:"",
-  fin:""
+  fin:"",
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
 },
 {
   lin:"2B",
@@ -177,7 +195,8 @@ lineas=[
   horario:"",
   costo:"",
   inicio:"",
-  fin:""
+  fin:"",
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
 },
 {
   lin:"2B",
@@ -186,7 +205,8 @@ lineas=[
   horario:"",
   costo:"",
   inicio:"",
-  fin:""
+  fin:"",
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
 },
 {
   lin:"2L",
@@ -195,7 +215,8 @@ lineas=[
   horario:"",
   costo:"",
   inicio:"",
-  fin:""
+  fin:"",
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
 },
 {
   lin:"2L",
@@ -204,7 +225,8 @@ lineas=[
   horario:"",
   costo:"",
   inicio:"",
-  fin:""
+  fin:"",
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
 },
 {
   lin:"3A",
@@ -213,7 +235,8 @@ lineas=[
   horario:"",
   costo:"",
   inicio:"",
-  fin:""
+  fin:"",
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
 },
 {
   lin:"3A",
@@ -222,7 +245,8 @@ lineas=[
   horario:"",
   costo:"",
   inicio:"",
-  fin:""
+  fin:"",
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
 },
 {
   lin:"3A",
@@ -231,7 +255,8 @@ lineas=[
   horario:"",
   costo:"",
   inicio:"",
-  fin:""
+  fin:"",
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
 },
 {
   lin:"5A",
@@ -240,7 +265,8 @@ lineas=[
   horario:"",
   costo:"",
   inicio:"",
-  fin:""
+  fin:"",
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
 },
 {
   lin:"5A",
@@ -249,7 +275,8 @@ lineas=[
   horario:"",
   costo:"",
   inicio:"",
-  fin:""
+  fin:"",
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
 },
 {
   lin:"5A",
@@ -258,7 +285,8 @@ lineas=[
   horario:"",
   costo:"",
   inicio:"",
-  fin:""
+  fin:"",
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
 },
 {
   lin:"5A",
@@ -267,7 +295,8 @@ lineas=[
   horario:"",
   costo:"",
   inicio:"",
-  fin:""
+  fin:"",
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
 },
 {
   lin:"5B",
@@ -276,7 +305,8 @@ lineas=[
   horario:"",
   costo:"",
   inicio:"",
-  fin:""
+  fin:"",
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
 },
 {
   lin:"5B",
@@ -285,7 +315,8 @@ lineas=[
   horario:"",
   costo:"",
   inicio:"",
-  fin:""
+  fin:"",
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
 },
 {
   lin:"5B",
@@ -294,7 +325,8 @@ lineas=[
   horario:"",
   costo:"",
   inicio:"",
-  fin:""
+  fin:"",
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
 },
 {
   lin:"5B",
@@ -303,7 +335,8 @@ lineas=[
   horario:"",
   costo:"",
   inicio:"",
-  fin:""
+  fin:"",
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
 },
 {
   lin:"5B",
@@ -312,7 +345,8 @@ lineas=[
   horario:"",
   costo:"",
   inicio:"",
-  fin:""
+  fin:"",
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
 },
 {
   lin:"8A",
@@ -321,7 +355,8 @@ lineas=[
   horario:"",
   costo:"",
   inicio:"",
-  fin:""
+  fin:"",
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
 },
 {
   lin:"8A",
@@ -330,7 +365,8 @@ lineas=[
   horario:"",
   costo:"",
   inicio:"",
-  fin:""
+  fin:"",
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
 },
 {
   lin:"8A",
@@ -339,7 +375,8 @@ lineas=[
   horario:"",
   costo:"",
   inicio:"",
-  fin:""
+  fin:"",
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
 },
 {
   lin:"Juarez Aeropuerto",
@@ -357,7 +394,8 @@ lineas=[
   horario:"",
   costo:"",
   inicio:"",
-  fin:""
+  fin:"",
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
 },
 {
   lin:"Juarez Aeropuerto",
@@ -366,7 +404,8 @@ lineas=[
   horario:"",
   costo:"",
   inicio:"",
-  fin:""
+  fin:"",
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
 },
 {
   lin:"Juarez Aeropuerto",
@@ -384,7 +423,8 @@ lineas=[
   horario:"",
   costo:"",
   inicio:"",
-  fin:""
+  fin:"",
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
 },
 {
   lin:"Juarez Aeropuerto",
@@ -402,7 +442,8 @@ lineas=[
   horario:"",
   costo:"",
   inicio:"",
-  fin:""
+  fin:"",
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
 },
 {
   lin:"8B",
@@ -411,7 +452,8 @@ lineas=[
   horario:"",
   costo:"",
   inicio:"",
-  fin:""
+  fin:"",
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
 },
 {
   lin:"Linea 10",
@@ -420,7 +462,8 @@ lineas=[
   horario:"",
   costo:"",
   inicio:"",
-  fin:""
+  fin:"",
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
 },
 {
   lin:"Linea 10",
@@ -429,7 +472,8 @@ lineas=[
   horario:"",
   costo:"",
   inicio:"",
-  fin:""
+  fin:"",
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
 },
 {
   lin:"Linea 10",
@@ -438,7 +482,8 @@ lineas=[
   horario:"",
   costo:"",
   inicio:"",
-  fin:""
+  fin:"",
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
 },
 {
   lin:"Linea 10",
@@ -447,7 +492,8 @@ lineas=[
   horario:"",
   costo:"",
   inicio:"",
-  fin:""
+  fin:"",
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
 },
 {
   lin:"Linea 10",
@@ -456,7 +502,8 @@ lineas=[
   horario:"",
   costo:"",
   inicio:"",
-  fin:""
+  fin:"",
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
 },
 {
   lin:"Linea 10",
@@ -465,7 +512,8 @@ lineas=[
   horario:"",
   costo:"",
   inicio:"",
-  fin:""
+  fin:"",
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
 },
 {
   lin:"Linea 10",
@@ -474,7 +522,8 @@ lineas=[
   horario:"",
   costo:"",
   inicio:"",
-  fin:""
+  fin:"",
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
 },
 {
   lin:"Linea 10",
@@ -492,7 +541,8 @@ lineas=[
   horario:"",
   costo:"",
   inicio:"",
-  fin:""
+  fin:"",
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
 },
 {
   lin:"Mercado de abastos",
@@ -501,7 +551,8 @@ lineas=[
   horario:"",
   costo:"",
   inicio:"",
-  fin:""
+  fin:"",
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
 },
 {
   lin:"Mercado de abastos",
@@ -510,7 +561,8 @@ lineas=[
   horario:"",
   costo:"",
   inicio:"",
-  fin:""
+  fin:"",
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
 },
 {
   lin:"Mercado de abastos",
@@ -519,7 +571,8 @@ lineas=[
   horario:"",
   costo:"",
   inicio:"",
-  fin:""
+  fin:"",
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
 },
 {
   lin:"Mercado de abastos",
@@ -528,7 +581,8 @@ lineas=[
   horario:"",
   costo:"",
   inicio:"",
-  fin:""
+  fin:"",
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
 },
 {
   lin:"Universitaria",
@@ -537,7 +591,8 @@ lineas=[
   horario:"",
   costo:"",
   inicio:"",
-  fin:""
+  fin:"",
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
 },
 {
   lin:"PU",
@@ -546,7 +601,8 @@ lineas=[
   horario:"",
   costo:"",
   inicio:"",
-  fin:""
+  fin:"",
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
 },
 {
   lin:"PU",
@@ -555,7 +611,8 @@ lineas=[
   horario:"",
   costo:"",
   inicio:"",
-  fin:""
+  fin:"",
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
 },
 {
   lin:"PU",
@@ -564,7 +621,8 @@ lineas=[
   horario:"",
   costo:"",
   inicio:"",
-  fin:""
+  fin:"",
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
 },
 {
   lin:"Valle de Juarez",
@@ -573,7 +631,8 @@ lineas=[
   horario:"",
   costo:"",
   inicio:"",
-  fin:""
+  fin:"",
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
 },
 {
   lin:"Valle de Juarez",
@@ -582,7 +641,8 @@ lineas=[
   horario:"",
   costo:"",
   inicio:"",
-  fin:""
+  fin:"",
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
 },
 {
   lin:"Valle de Juarez",
@@ -591,7 +651,8 @@ lineas=[
   horario:"",
   costo:"",
   inicio:"",
-  fin:""
+  fin:"",
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
 }
 ];
 
