@@ -15,12 +15,14 @@ export class HomePage {
  
   @ViewChild('map') mapElement: ElementRef;
   public static mapa;
- 
+  public barraActiva=false; 
   constructor(public navCtrl: NavController, public geolocation: Geolocation, 
     public alertCtrl: AlertController) {  
          
     }
- 
+    barraBuscadora(){
+      this.barraActiva=!(this.barraActiva);
+      }
   ionViewDidLoad(){
     HomePage.mapa=this.initMap();
     window.alert('ionView = '+HomePage.mapa);

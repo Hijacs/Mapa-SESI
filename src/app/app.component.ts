@@ -19,7 +19,7 @@ export class MyApp {
   paginaPrincipal=PaginaInicialPage;
   iniciarSesion=InicioSesionPage;
   lineas=LineasPage;
-
+  usuarioConectado=false;
 @ViewChild('paginas') paginas:NavController;
 
   constructor(
@@ -34,8 +34,12 @@ export class MyApp {
       this.aut.sesion.subscribe(sesion=>{
         if (sesion){
           this.paginas.setRoot(LineasPage);
+          this.usuarioConectado=true;
         } else
-        {this.paginas.setRoot(PaginaInicialPage)}
+        {this.paginas.setRoot(PaginaInicialPage)
+        this.usuarioConectado=false;
+        }
+
       });
       /*.Session.subscribe(session=>{
 

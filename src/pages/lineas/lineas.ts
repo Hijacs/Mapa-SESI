@@ -231,7 +231,7 @@ lineas=[
 {
   lin:"3A",
   nombre:"Altamirano Piedrera",
-  imagen:"",
+  imagen:"./../assets/rutas/3A1.jpg",
   horario:"",
   costo:"",
   inicio:"",
@@ -241,7 +241,7 @@ lineas=[
 {
   lin:"3A",
   nombre:"Altamirano",
-  imagen:"",
+  imagen:"./../assets/rutas/3A1.jpg",
   horario:"",
   costo:"",
   inicio:"",
@@ -251,7 +251,7 @@ lineas=[
 {
   lin:"3A",
   nombre:"Velarde",
-  imagen:"",
+  imagen:"./../assets/rutas/3A1.jpg",
   horario:"",
   costo:"",
   inicio:"",
@@ -261,7 +261,7 @@ lineas=[
 {
   lin:"5A",
   nombre:"Cereso a Col km 20",
-  imagen:"",
+  imagen:"./../assets/rutas/5A1.jpg",
   horario:"",
   costo:"",
   inicio:"",
@@ -271,7 +271,7 @@ lineas=[
 {
   lin:"5A",
   nombre:"Cereso a Col safari",
-  imagen:"",
+  imagen:"./../assets/rutas/5A1.jpg",
   horario:"",
   costo:"",
   inicio:"",
@@ -281,7 +281,7 @@ lineas=[
 {
   lin:"5A",
   nombre:"Cereso por eje vial",
-  imagen:"",
+  imagen:"./../assets/rutas/5A1.jpg",
   horario:"",
   costo:"",
   inicio:"",
@@ -291,7 +291,7 @@ lineas=[
 {
   lin:"5A",
   nombre:"Pantoja",
-  imagen:"",
+  imagen:"./../assets/rutas/5A1.jpg",
   horario:"",
   costo:"",
   inicio:"",
@@ -458,7 +458,7 @@ lineas=[
 {
   lin:"Linea 10",
   nombre:"Avicola abajo",
-  imagen:"",
+  imagen:"./../assets/rutas/L101.jpg",
   horario:"",
   costo:"",
   inicio:"",
@@ -468,7 +468,7 @@ lineas=[
 {
   lin:"Linea 10",
   nombre:"Avicola Arriba",
-  imagen:"",
+  imagen:"./../assets/rutas/L101.jpg",
   horario:"",
   costo:"",
   inicio:"",
@@ -478,7 +478,7 @@ lineas=[
 {
   lin:"Linea 10",
   nombre:"Rancho derecho",
-  imagen:"",
+  imagen:"./../assets/rutas/L101.jpg",
   horario:"",
   costo:"",
   inicio:"",
@@ -488,7 +488,7 @@ lineas=[
 {
   lin:"Linea 10",
   nombre:"Rancho izquierda",
-  imagen:"",
+  imagen:"./../assets/rutas/L101.jpg",
   horario:"",
   costo:"",
   inicio:"",
@@ -498,7 +498,7 @@ lineas=[
 {
   lin:"Linea 10",
   nombre:"Rancho poleo",
-  imagen:"",
+  imagen:"./../assets/rutas/L101.jpg",
   horario:"",
   costo:"",
   inicio:"",
@@ -508,7 +508,7 @@ lineas=[
 {
   lin:"Linea 10",
   nombre:"Retiro",
-  imagen:"",
+  imagen:"./../assets/rutas/L101.jpg",
   horario:"",
   costo:"",
   inicio:"",
@@ -518,7 +518,7 @@ lineas=[
 {
   lin:"Linea 10",
   nombre:"Sarabia abajo",
-  imagen:"",
+  imagen:"./../assets/rutas/L101.jpg",
   horario:"",
   costo:"",
   inicio:"",
@@ -528,7 +528,7 @@ lineas=[
 {
   lin:"Linea 10",
   nombre:"Saravia arriba",
-  imagen:"",
+  imagen:"./../assets/rutas/L101.jpg",
   horario:"",
   costo:"",
   inicio:"",
