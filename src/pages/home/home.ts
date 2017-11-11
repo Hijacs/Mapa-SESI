@@ -1,20 +1,21 @@
-import { Component, ViewChild, ElementRef } from '@angular/core';
+import {Injectable, Component, ViewChild, ElementRef } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { Geolocation } from '@ionic-native/geolocation';
- 
+import * as $ from 'jquery';
+
 declare var google;
- 
+
 @Component({
   selector: 'home-page',
   templateUrl: 'home.html'
 })
+@Injectable()
 export class HomePage {
  
   @ViewChild('map') mapElement: ElementRef;
   map: any;
- 
   constructor(public navCtrl: NavController, public geolocation: Geolocation) {
- 
+
   }
  
   ionViewDidLoad(){
@@ -27,16 +28,17 @@ export class HomePage {
       zoom: 12
     });
   }
-  
+
+
 //PARA ABAJO
-     initMap() {
+     initMap(dir: string) {
     var map = new google.maps.Map(document.getElementById('map'), {
       center: {lat: 31.7333300, lng: -106.4833300},
       zoom: 15
     });
-    
-    //var infoWindow = new google.maps.InfoWindow({map: map});
 
+    //var infoWindow = new google.maps.InfoWindow({map: map});
+    
     // Modelo de geolicalización.
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(function(position) {
@@ -51,13 +53,18 @@ export class HomePage {
           title: "Tu posición"
         });
 
-        var ctaLayer = new google.maps.KmlLayer({
-          url: 'https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/1A%20Bosques%20Finca%20Morelos.kml',
+        if(dir!='0'){
+          //window.alert("Entro");
+        /*var ctaLayer = new google.maps.KmlLayer({
+          url: 'https://github.com/Hijacs/ArchivosIDI/blob/master/1A%20Bosques%20Finca%20Morelos.kmz',
           map: map,
-          //suppressInfoWindows: true,
-        });    
+          suppressInfoWindows: true,
+        });*/
+        var kmzLayer = new google.maps.KmlLayer('https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/'+dir+'.kml');
+        kmzLayer.setMap(map);
+      }
 
-        map.setCenter(pos);
+        //map.setCenter(pos);
       }, function() {
         var infoWindow = new google.maps.InfoWindow({map: map});
         infoWindow.setPosition(map.getCenter());
@@ -74,8 +81,15 @@ export class HomePage {
                             'El navegador no soporta geolocalización.');
     }
   }
-  
 
+  MKML(){
+
+    $(document).ready(() => {
+      this.initMap('1B');
+               });
+    
+  }
+  
  //PARA ARRIBA
 }
 

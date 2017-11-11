@@ -9,14 +9,14 @@
       Mapa
     </ion-title>
     <ion-buttons end>
-      <button ion-button (click)="initMap()">
+      <button ion-button (click)="initMap('0')">
         <ion-icon name="Geol"></ion-icon>¡Suben!</button>
     </ion-buttons>
   </ion-navbar>
 </ion-header>
 
 <ion-content>
-  <div id="floating-panel">
+  <!--<div id="floating-panel">
     <b>Origen: </b>
     <input type="text" size="23%" id="start" name="from" value="Parque central, ciudad juarez" />
 
@@ -45,7 +45,7 @@
       </ion-item>
 
     </ion-list>
-  </div>
+  </div>-->
 
   <div #map id="map"></div>
 
