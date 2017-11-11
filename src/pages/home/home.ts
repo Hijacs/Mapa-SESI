@@ -60,7 +60,7 @@ export class HomePage {
           map: map,
           suppressInfoWindows: true,
         });*/
-        var kmzLayer = new google.maps.KmlLayer('https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/'+dir+'.kml');
+        var kmzLayer = new google.maps.KmlLayer('https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/1A%20BFM.kml');
         kmzLayer.setMap(map);
       }
 
@@ -85,7 +85,7 @@ export class HomePage {
   MKML(){
 
     $(document).ready(() => {
-      this.initMap('1B');
+      this.initMap('1A BFM');
                });
     
   }
