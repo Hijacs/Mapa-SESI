@@ -25,7 +25,7 @@ lineas=[
    costo:"8 pesos",
    inicio:"",
    fin:"",
-   kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
+   kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/1A%BFM.kml"
  },
  {
   lin:"1A",
@@ -35,7 +35,7 @@ lineas=[
    costo:"8 pesos",
    inicio:"",
    fin:"",
-   kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
+   kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/1A%L-UNI.kml"
  },
  {
   lin:"1A",
@@ -45,7 +45,7 @@ lineas=[
   costo:"8 pesos",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/1A%ME2000.kml"
 },
 {
   lin:"1A",
@@ -116,7 +116,7 @@ lineas=[
   costo:"8 pesos",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/1A%ME2000.kml"
 },
 {
   lin:"1A",
@@ -136,7 +136,7 @@ lineas=[
   costo:"8 pesos",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/1A%P-UNI.kml"
 },
 {
   lin:"1B",
@@ -156,7 +156,7 @@ lineas=[
   costo:"8 pesos",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/1A%ET"
 },
 {
   lin:"2B",
@@ -166,7 +166,7 @@ lineas=[
   costo:"",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/2B%BA"
 },
 {
   lin:"2B",
@@ -196,7 +196,7 @@ lineas=[
   costo:"",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/2B%F.kml"
 },
 {
   lin:"2B",
@@ -206,17 +206,17 @@ lineas=[
   costo:"",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/2B%BA.kml"
 },
 {
   lin:"2L",
-  nombre:"Fornteriza por 16",
+  nombre:"Fronteriza por 16",
   imagen:"",
   horario:"",
   costo:"",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master//2L%F16.kml"
 },
 {
   lin:"2L",
@@ -246,7 +246,7 @@ lineas=[
   costo:"",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/3A%A"
 },
 {
   lin:"3A",
@@ -286,7 +286,7 @@ lineas=[
   costo:"",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
+  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/5A%CEV.kml"
 },
 {
   lin:"5A",

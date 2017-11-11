@@ -15,7 +15,7 @@ import { PaginaInicialPage } from './../pages/pagina-inicial/pagina-inicial';
 import { InicioSesionPage } from './../pages/inicio-sesion/inicio-sesion';
 import { LineasPage } from './../pages/lineas/lineas';
 import { HomePage } from '../pages/home/home';
-import { Storage } from '@ionic/storage';
+//import { Storage } from '@ionic/storage';
 
 export const firebaseConfig={
 
@@ -75,8 +75,8 @@ apiKey: "AIzaSyBDcTLGhx6yzgZlXCrjyBz6DgDdvnqLDu0",
     /*HomePage,
     KMLService,*/
     {provide: ErrorHandler, useClass: IonicErrorHandler},
-    AutSesiProvider,
-    Storage
+    AutSesiProvider
+   // Storage
   ]
 })
 export class AppModule {}

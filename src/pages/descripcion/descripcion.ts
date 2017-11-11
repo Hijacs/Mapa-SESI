@@ -30,7 +30,7 @@ constructor(public navCtrl: NavController, public navParams: NavParams,
 
   KML(nKml){
     
-    this.navCtrl.setRoot(HomePage);
+    this.navCtrl.push(HomePage);
     
     $(document).ready(() => {
         this.map = this.homePage.ionViewDidLoad();
