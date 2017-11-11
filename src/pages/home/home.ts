@@ -1,3 +1,4 @@
+import { LineasPage } from './../lineas/lineas';
 import { Component, ViewChild, ElementRef, Injectable } from '@angular/core';
 import { NavController, AlertController } from 'ionic-angular';
 import { Geolocation } from '@ionic-native/geolocation';
@@ -51,9 +52,11 @@ export class HomePage {
 
     var dir:string;
 
+    nKml='https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/'+nKml;
+
     var ctaLayer = new google.maps.KmlLayer({
-              url: 'https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml',
-              //url: 'https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/1A%20Bosques%20Finca%20Morelos.kml',
+              //url: nKml,
+              url: 'https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/1A%20Bosques%20Finca%20Morelos.kml',
               map: map/*this.map*/
             });
 

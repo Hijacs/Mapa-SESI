@@ -64,7 +64,7 @@ lineas=[
 },
 {
   lin:"1A",
-  nombre:"Jilotepec UNITEC directo",
+  nombre:"Jilotepec UNITEC Directo",
   imagen:"./../assets/rutas/1A1.jpg",
   horario:"4:00-22:00 hrs",
   costo:"8 pesos",
@@ -127,7 +127,7 @@ lineas=[
 },
 {
   lin:"1B",
-  nombre:"Av de las torres directo",
+  nombre:"Av de las Torres Directo",
   imagen:"./../assets/rutas/1B1.jpg",
   horario:"4:00-22:00 hrs",
   costo:"8 pesos",
@@ -136,7 +136,7 @@ lineas=[
 },
 {
   lin:"1B",
-  nombre:"Express Av de las torres",
+  nombre:"Express Av de las Torres",
   imagen:"./../assets/rutas/1B1.jpg",
   horario:"4:00-22:00 hrs",
   costo:"8 pesos",
@@ -190,7 +190,7 @@ lineas=[
 },
 {
   lin:"2L",
-  nombre:"Fornteriza por 16",
+  nombre:"Fronteriza por 16",
   imagen:"",
   horario:"",
   costo:"",
