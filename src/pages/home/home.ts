@@ -35,7 +35,7 @@ export class HomePage {
     
     HomePage.mapa = new google.maps.Map(document.getElementById('map'), {
       center: {lat: 31.7333300, lng: -106.4833300},
-      zoom: 13
+      zoom: 12
     });
 
     //window.alert('initMap = '+HomePage.mapa);
