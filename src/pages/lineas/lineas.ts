@@ -303,7 +303,7 @@ lineas=[
   nombre:"Granjas Felipe",
   imagen:"./../assets/rutas/5BGF.jpg",
   horario:"4:00-22:00 hrs",
-  costo:"",
+  costo:"8 pesos",
   inicio:"",
   fin:"",
   kml:"5BGF.kml"
@@ -313,7 +313,7 @@ lineas=[
   nombre:"Granjas Pavo Real",
   imagen:"./../assets/rutas/5BGPR.jpg",
   horario:"4:00-22:00 hrs",
-  costo:"",
+  costo:"8 pesos",
   inicio:"",
   fin:"",
   kml:"5BGPR.kml"
@@ -323,7 +323,7 @@ lineas=[
   nombre:"Revolución por Eje",
   imagen:"./../assets/rutas/5BEV.jpg",
   horario:"4:00-22:00 hrs",
-  costo:"",
+  costo:"8 pesos",
   inicio:"",
   fin:"",
   kml:"5BRE.kml"
@@ -333,7 +333,7 @@ lineas=[
   nombre:"Tercera por Curva",
   imagen:"./../assets/rutas/5BC.jpg",
   horario:"4:00-22:00 hrs",
-  costo:"",
+  costo:"8 pesos",
   inicio:"",
   fin:"",
   kml:"5BC.kml"
@@ -343,7 +343,7 @@ lineas=[
   nombre:"Tercera por Eje Vial",
   imagen:"./../assets/rutas/5BEV.jpg",
   horario:"4:00-22:00 hrs",
-  costo:"",
+  costo:"8 pesos",
   inicio:"",
   fin:"",
   kml:"5BEV.kml"
@@ -353,7 +353,7 @@ lineas=[
   nombre:"Curva",
   imagen:"./../assets/rutas/8AC.jpg",
   horario:"4:00-22:00 hrs",
-  costo:"",
+  costo:"8 pesos",
   inicio:"",
   fin:"",
   kml:"8AC.kml"
@@ -363,7 +363,7 @@ lineas=[
   nombre:"Las locas",
   imagen:"./../assets/rutas/8ALL.jpg",
   horario:"4:00-22:00 hrs",
-  costo:"",
+  costo:"8 pesos",
   inicio:"",
   fin:"",
   kml:"8ALL.kml"
@@ -373,7 +373,7 @@ lineas=[
   nombre:"Seguro Nuevo",
   imagen:"./../assets/rutas/8ASN.jpg",
   horario:"4:00-22:00 hrs",
-  costo:"",
+  costo:"8 pesos",
   inicio:"",
   fin:"",
   kml:"8ASN.kml"
@@ -383,7 +383,7 @@ lineas=[
   nombre:"Km 18 San Lorenzo",
   imagen:"./../assets/rutas/JA.jpg",
   horario:"4:00-22:00 hrs",
-  costo:"",
+  costo:"8 pesos",
   inicio:"",
   fin:"JAK18SL.kml"
 },
@@ -392,7 +392,7 @@ lineas=[
   nombre:"Erendida San Lorenzo",
   imagen:"./../assets/rutas/JASL.jpg",
   horario:"4:00-22:00 hrs",
-  costo:"",
+  costo:"8 pesos",
   inicio:"",
   fin:"",
   kml:"JAESL.kml"
@@ -402,7 +402,7 @@ lineas=[
   nombre:"Km 18 Centro",
   imagen:"./../assets/rutas/JA2.jpg",
   horario:"4:00-22:00 hrs",
-  costo:"",
+  costo:"8 pesos",
   inicio:"",
   fin:"",
   kml:"JAK18.kml"
@@ -412,7 +412,7 @@ lineas=[
   nombre:"Km 20 Mezquital Centro",
   imagen:"./../assets/rutas/JAK20MSL.jpg",
   horario:"4:00-22:00 hrs",
-  costo:"",
+  costo:"8 pesos",
   inicio:"",
   fin:"JAK20MC"
 },
@@ -421,7 +421,7 @@ lineas=[
   nombre:"Km 20 Mezquital San Lorenzo",
   imagen:"./../assets/rutas/JAK20MSL.jpg",
   horario:"4:00-22:00 hrs",
-  costo:"",
+  costo:"8 pesos",
   inicio:"",
   fin:"",
   kml:"JAK20MSL.kml"
@@ -431,7 +431,7 @@ lineas=[
   nombre:"Lucio Blanco",
   imagen:"./../assets/rutas/JA.jpg",
   horario:"4:00-22:00 hrs",
-  costo:"",
+  costo:"8 pesos",
   inicio:"",
   fin:"",
   kml:"JALB.kml"
@@ -441,7 +441,7 @@ lineas=[
   nombre:"Fidel Velazquez",
   imagen:"./../assets/rutas/L4.jpg",
   horario:"4:00-22:00 hrs",
-  costo:"",
+  costo:"8 pesos",
   inicio:"",
   fin:"",
   kml:"L4FV.kml"
@@ -451,7 +451,7 @@ lineas=[
   nombre:"Seguro Nuevo",
   imagen:"./../assets/rutas/8B.jpg",
   horario:"4:00-22:00 hrs",
-  costo:"8",
+  costo:"8 pesos",
   inicio:"",
   fin:"",
   kml:"8BSN.kml"
@@ -461,7 +461,7 @@ lineas=[
   nombre:"Avicola Abajo",
   imagen:"./../assets/rutas/10A.jpg",
   horario:"4:00-22:00 hrs",
-  costo:"",
+  costo:"8 pesos",
   inicio:"",
   fin:"",
   kml:"10A1.kml"
@@ -471,7 +471,7 @@ lineas=[
   nombre:"Avicola Arriba",
   imagen:"./../assets/rutas/10A.jpg",
   horario:"4:00-22:00 hrs",
-  costo:"",
+  costo:"8 pesos",
   inicio:"",
   fin:"",
   kml:"10A2.kml"
@@ -482,7 +482,7 @@ lineas=[
   imagen:"./../assets/rutas/10RD.jpg",
   horario:"4:00-22:00 hrs",
   costo:"",
-  inicio:"",
+  inicio:"8 pesos",
   fin:"",
   kml:"10RD.kml"
 },
@@ -491,7 +491,7 @@ lineas=[
   nombre:"Rancho Izquierda",
   imagen:"./../assets/rutas/10RI.jpg",
   horario:"4:00-22:00 hrs",
-  costo:"",
+  costo:"8 pesos",
   inicio:"",
   fin:"",
   kml:"10RI.kml"
@@ -501,7 +501,7 @@ lineas=[
   nombre:"Rancho Poleo",
   imagen:"./../assets/rutas/10RP.jpg",
   horario:"4:00-22:00 hrs",
-  costo:"",
+  costo:"8 pesos",
   inicio:"",
   fin:"",
   kml:"10RP.kml"
@@ -511,7 +511,7 @@ lineas=[
   nombre:"Retiro",
   imagen:"./../assets/rutas/10R.jpg",
   horario:"4:00-22:00 hrs",
-  costo:"",
+  costo:"8 pesos",
   inicio:"",
   fin:"",
   kml:"10R.kml"
@@ -521,7 +521,7 @@ lineas=[
   nombre:"Sarabia abajo",
   imagen:"./../assets/rutas/10S.jpg",
   horario:"4:00-22:00 hrs",
-  costo:"",
+  costo:"8 pesos",
   inicio:"",
   fin:"",
   kml:"10S1.kml"
@@ -531,7 +531,7 @@ lineas=[
   nombre:"Saravia arriba",
   imagen:"./../assets/rutas/10S.jpg",
   horario:"4:00-22:00 hrs",
-  costo:"",
+  costo:"8 pesos",
   inicio:"",
   fin:"",
   kml:"10S2.kml"
@@ -541,7 +541,7 @@ lineas=[
   nombre:"",
   imagen:"./../assets/rutas/LC.jpg",
   horario:"4:00-22:00 hrs",
-  costo:"",
+  costo:"8 pesos",
   inicio:"",
   fin:"",
   kml:"LC.kml"
@@ -551,7 +551,7 @@ lineas=[
   nombre:"Flores Magón",
   imagen:"./../assets/rutas/MA.jpg",
   horario:"4:00-22:00 hrs",
-  costo:"",
+  costo:"8 pesos",
   inicio:"",
   fin:"",
   kml:"MAFM.kml"
@@ -561,7 +561,7 @@ lineas=[
   nombre:"Galeana",
   imagen:"./../assets/rutas/MAG.jpg",
   horario:"4:00-22:00 hrs",
-  costo:"",
+  costo:"8 pesos",
   inicio:"",
   fin:"",
   kml:"MAG.kml"
@@ -571,7 +571,7 @@ lineas=[
   nombre:"Los ojitos",
   imagen:"./../assets/rutas/MA2.jpg",
   horario:"4:00-22:00 hrs",
-  costo:"",
+  costo:"8 pesos",
   inicio:"",
   fin:"",
   kml:"MAO.kml"
@@ -581,7 +581,7 @@ lineas=[
   nombre:"Palo Chino",
   imagen:"./../assets/rutas/MA.jpg",
   horario:"4:00-22:00 hrs",
-  costo:"",
+  costo:"8 pesos",
   inicio:"",
   fin:"",
   kml:"MAPC.kml"
@@ -591,7 +591,7 @@ lineas=[
   nombre:"Flores Magón",
   imagen:"./../assets/rutas/UNI.jpg",
   horario:"4:00-22:00 hrs",
-  costo:"",
+  costo:"8 pesos",
   inicio:"",
   fin:"",
   kml:"UNI.kml"
@@ -601,7 +601,7 @@ lineas=[
   nombre:"Granjero",
   imagen:"./../assets/rutas/PU1.jpg",
   horario:"4:00-22:00 hrs",
-  costo:"",
+  costo:"8 pesos",
   inicio:"",
   fin:"",
   kml:"PUG.kml"
@@ -611,7 +611,7 @@ lineas=[
   nombre:"Km30",
   imagen:"./../assets/rutas/PU2.jpg",
   horario:"4:00-22:00 hrs",
-  costo:"",
+  costo:"8 pesos",
   inicio:"",
   fin:"",
   kml:"PUK30"
@@ -621,7 +621,7 @@ lineas=[
   nombre:"Lomas",
   imagen:"./../assets/rutas/PU3.jpg",
   horario:"4:00-22:00 hrs",
-  costo:"",
+  costo:"8 pesos",
   inicio:"",
   fin:"",
   kml:"PUL.kml"
@@ -631,7 +631,7 @@ lineas=[
   nombre:"Riveras 1-6",
   imagen:"./../assets/rutas/VJR16.jpg",
   horario:"4:00-22:00 hrs",
-  costo:"",
+  costo:"8 pesos",
   inicio:"",
   fin:"",
   kml:"VJR14.kml"
@@ -641,7 +641,7 @@ lineas=[
   nombre:"Riveras 7-8",
   imagen:"./../assets/rutas/VJR78.jpg",
   horario:"4:00-22:00 hrs",
-  costo:"",
+  costo:"8 pesos",
   inicio:"",
   fin:"",
   kml:"VJR78.kml"
@@ -651,7 +651,7 @@ lineas=[
   nombre:"Tierra Nueva segunda etapa",
   imagen:"./../assets/rutas/VJTN.jpg",
   horario:"4:00-22:00 hrs",
-  costo:"",
+  costo:"8 pesos",
   inicio:"",
   fin:"",
   kml:"VJTN.kml"
