@@ -25,7 +25,7 @@ lineas=[
    costo:"8 pesos",
    inicio:"",
    fin:"",
-   kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/1A%BFM.kml"
+   kml:"1A BFM.kml"
  },
  {
   lin:"1A",
@@ -35,7 +35,7 @@ lineas=[
    costo:"8 pesos",
    inicio:"",
    fin:"",
-   kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/1A%L-UNI.kml"
+   kml:"1A%L-UNI.kml"
  },
  {
   lin:"1A",
@@ -86,7 +86,7 @@ lineas=[
   costo:"8 pesos",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
+  kml:"1A L-UNI.kml"
 },
 {
   lin:"1A",

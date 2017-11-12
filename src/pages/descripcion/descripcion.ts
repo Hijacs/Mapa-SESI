@@ -1,6 +1,5 @@
 import { Component, ViewChild, ElementRef } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-
 import { HomePage } from './../home/home';
 import * as $ from 'jquery';
 
@@ -15,7 +14,7 @@ import * as $ from 'jquery';
 @Component({
   selector: 'page-descripcion',
   templateUrl: 'descripcion.html',
-  providers: [HomePage]
+providers: [HomePage]
 })
 export class DescripcionPage {
 
@@ -28,15 +27,16 @@ constructor(public navCtrl: NavController, public navParams: NavParams,
   this.map=this.map;
   }
 
-  KML(nKml:any=null){
-    
+  KML(nKml:any){
     this.navCtrl.push(HomePage);
-    
+   
+    //var nKml;
+    //window.alert('Entré perro');
     $(document).ready(() => {
         this.map = this.homePage.ionViewDidLoad();
 
-        //window.alert('map = '+this.map);
-        
+        //window.alert('map = '+nKml);
+
         this.homePage.InsertarKML(this.map, nKml);
     });
   }

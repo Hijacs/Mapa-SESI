@@ -25,7 +25,7 @@ export class HomePage {
       }
   ionViewDidLoad(){
     HomePage.mapa=this.initMap();
-    window.alert('ionView = '+HomePage.mapa);
+    //window.alert('ionView = '+HomePage.mapa);
     return HomePage.mapa;
   }
   
@@ -35,7 +35,7 @@ export class HomePage {
     
     HomePage.mapa = new google.maps.Map(document.getElementById('map'), {
       center: {lat: 31.7333300, lng: -106.4833300},
-      zoom: 15
+      zoom: 13
     });
 
     //window.alert('initMap = '+HomePage.mapa);
@@ -53,10 +53,13 @@ export class HomePage {
 
     var dir:string;
 
+    dir='https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/'+nKml;
+    window.alert('.'+dir+'.');
+
     var ctaLayer = new google.maps.KmlLayer({
-              //url:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/5A%CEV.kml",
-              //'https://www.github.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml',
-              url: 'https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/10%20RI.kml',
+              url: dir,
+              //url: 'https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/10%20RI.kml',
+              //url:'https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/1A%20BFM.kml',
               map: map/*this.map*/
             });
 
