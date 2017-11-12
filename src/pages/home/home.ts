@@ -54,9 +54,9 @@ export class HomePage {
     var dir:string;
 
     var ctaLayer = new google.maps.KmlLayer({
-              url: //"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/5A%CEV.kml",
-              'https://www.github.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml',
-              //url: 'https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/1A%20Bosques%20Finca%20Morelos.kml',
+              //url:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/5A%CEV.kml",
+              //'https://www.github.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml',
+              url: 'https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/10%20RI.kml',
               map: map/*this.map*/
             });
 

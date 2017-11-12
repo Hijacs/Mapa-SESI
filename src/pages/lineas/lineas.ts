@@ -140,7 +140,7 @@ lineas=[
 },
 {
   lin:"1B",
-  nombre:"Av de las torres directo",
+  nombre:"Av de las Torres Directo",
   imagen:"./../assets/rutas/1B1.jpg",
   horario:"4:00-22:00 hrs",
   costo:"8 pesos",
@@ -150,7 +150,7 @@ lineas=[
   },
 {
   lin:"1B",
-  nombre:"Express Av de las torres",
+  nombre:"Express Av de las Torres",
   imagen:"./../assets/rutas/1B1.jpg",
   horario:"4:00-22:00 hrs",
   costo:"8 pesos",
@@ -270,7 +270,7 @@ lineas=[
 },
 {
   lin:"5A",
-  nombre:"Cereso a Col safari",
+  nombre:"Cereso a Col Safari",
   imagen:"./../assets/rutas/5A1.jpg",
   horario:"",
   costo:"",
@@ -280,7 +280,7 @@ lineas=[
 },
 {
   lin:"5A",
-  nombre:"Cereso por eje vial",
+  nombre:"Cereso por Eje Vial",
   imagen:"./../assets/rutas/5A1.jpg",
   horario:"",
   costo:"",
@@ -310,7 +310,7 @@ lineas=[
 },
 {
   lin:"5B",
-  nombre:"Granjas pavo real",
+  nombre:"Granjas Pavo Real",
   imagen:"",
   horario:"",
   costo:"",
@@ -320,7 +320,7 @@ lineas=[
 },
 {
   lin:"5B",
-  nombre:"Revolución por eje",
+  nombre:"Revolución por Eje",
   imagen:"",
   horario:"",
   costo:"",
@@ -330,7 +330,7 @@ lineas=[
 },
 {
   lin:"5B",
-  nombre:"Tercera por curva",
+  nombre:"Tercera por Curva",
   imagen:"",
   horario:"",
   costo:"",
@@ -340,7 +340,7 @@ lineas=[
 },
 {
   lin:"5B",
-  nombre:"Tercera por eje vial",
+  nombre:"Tercera por Eje Vial",
   imagen:"",
   horario:"",
   costo:"",
@@ -370,7 +370,7 @@ lineas=[
 },
 {
   lin:"8A",
-  nombre:"Seguro nuevo",
+  nombre:"Seguro Nuevo",
   imagen:"",
   horario:"",
   costo:"",
@@ -457,7 +457,7 @@ lineas=[
 },
 {
   lin:"Linea 10",
-  nombre:"Avicola abajo",
+  nombre:"Avicola Abajo",
   imagen:"./../assets/rutas/L101.jpg",
   horario:"",
   costo:"",
@@ -477,7 +477,7 @@ lineas=[
 },
 {
   lin:"Linea 10",
-  nombre:"Rancho derecho",
+  nombre:"Rancho Derecho",
   imagen:"./../assets/rutas/L101.jpg",
   horario:"",
   costo:"",
@@ -487,7 +487,7 @@ lineas=[
 },
 {
   lin:"Linea 10",
-  nombre:"Rancho izquierda",
+  nombre:"Rancho Izquierda",
   imagen:"./../assets/rutas/L101.jpg",
   horario:"",
   costo:"",
@@ -497,7 +497,7 @@ lineas=[
 },
 {
   lin:"Linea 10",
-  nombre:"Rancho poleo",
+  nombre:"Rancho Poleo",
   imagen:"./../assets/rutas/L101.jpg",
   horario:"",
   costo:"",
@@ -545,7 +545,7 @@ lineas=[
   kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
 },
 {
-  lin:"Mercado de abastos",
+  lin:"Mercado de Abastos",
   nombre:"Flores Magón",
   imagen:"",
   horario:"",
@@ -555,7 +555,7 @@ lineas=[
   kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
 },
 {
-  lin:"Mercado de abastos",
+  lin:"Mercado de Abastos",
   nombre:"Galeana",
   imagen:"",
   horario:"",
@@ -565,7 +565,7 @@ lineas=[
   kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
 },
 {
-  lin:"Mercado de abastos",
+  lin:"Mercado de Abastos",
   nombre:"Los ojitos",
   imagen:"",
   horario:"",
@@ -575,7 +575,7 @@ lineas=[
   kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
 },
 {
-  lin:"Mercado de abastos",
+  lin:"Mercado de Abastos",
   nombre:"Palo Chino",
   imagen:"",
   horario:"",

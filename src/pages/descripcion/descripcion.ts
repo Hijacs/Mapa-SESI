@@ -28,7 +28,7 @@ constructor(public navCtrl: NavController, public navParams: NavParams,
   this.map=this.map;
   }
 
-  KML(nKml){
+  KML(nKml:any=null){
     
     this.navCtrl.push(HomePage);
     
