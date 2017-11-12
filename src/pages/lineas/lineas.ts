@@ -20,7 +20,7 @@ lineas=[
    {
    lin:"1A",
    nombre:"Bosques Finca Morelos",
-   imagen:"./../assets/rutas/1A1.jpg",
+   imagen:"./../assets/rutas/1ABFM.jpg",
    horario:"4:00-22:00 hrs",
    costo:"8 pesos",
    inicio:"",
@@ -35,7 +35,7 @@ lineas=[
    costo:"8 pesos",
    inicio:"",
    fin:"",
-   kml:"1AL-UNI.kml"
+   kml:"1ABV.kml"
  },
  {
   lin:"1A",
@@ -45,7 +45,7 @@ lineas=[
   costo:"8 pesos",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/1A%ME2000.kml"
+  kml:"1AP66.kml"
 },
 {
   lin:"1A",
@@ -55,38 +55,38 @@ lineas=[
   costo:"8 pesos",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
+  kml:"1APD"
 
 },
 {
   lin:"1A",
   nombre:"Jilotepec UNITEC",
-  imagen:"./../assets/rutas/1A1.jpg",
+  imagen:"./../assets/rutas/1AUNI.jpg",
   horario:"4:00-22:00 hrs",
   costo:"8 pesos",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
+  kml:"1AJD.kml"
 },
 {
   lin:"1A",
   nombre:"Jilotepec UNITEC directo",
-  imagen:"./../assets/rutas/1A1.jpg",
+  imagen:"./../assets/rutas/1AUNI2.jpg",
   horario:"4:00-22:00 hrs",
   costo:"8 pesos",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
+  kml:"1AUNID.kml"
 },
 {
   lin:"1A",
   nombre:"Lomas UNITEC",
-  imagen:"./../assets/rutas/1A1.jpg",
+  imagen:"./../assets/rutas/1AUNI.jpg",
   horario:"4:00-22:00 hrs",
   costo:"8 pesos",
   inicio:"",
   fin:"",
-  kml:"1A L-UNI.kml"
+  kml:"1ALUNI.kml"
 },
 {
   lin:"1A",
@@ -96,47 +96,47 @@ lineas=[
   costo:"8 pesos",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
+  kml:"1ALP.kml"
 },
 {
   lin:"1A",
   nombre:"Morelos Durango Felix Candela",
-  imagen:"./../assets/rutas/1A1.jpg",
+  imagen:"./../assets/rutas/1AMD.jpg",
   horario:"4:00-22:00 hrs",
   costo:"8 pesos",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
+  kml:"1AMD.kml"
 },
 {
   lin:"1A",
   nombre:"Morelos Eco2000",
-  imagen:"./../assets/rutas/1A1.jpg",
+  imagen:"./../assets/rutas/1AME2000.jpg",
   horario:"4:00-22:00 hrs",
   costo:"8 pesos",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/1A%ME2000.kml"
+  kml:"1AME2000.kml"
 },
 {
   lin:"1A",
-  nombre:"Paseo Parajes (express)",
-  imagen:"./../assets/rutas/1A1.jpg",
+  nombre:"Paseo Parajes Express",
+  imagen:"./../assets/rutas/1APP.jpg",
   horario:"4:00-22:00 hrs",
   costo:"8 pesos",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
+  kml:"1APP.kml"
 },
 {
   lin:"1A",
   nombre:"Paseo UNITEC",
-  imagen:"./../assets/rutas/1A1.jpg",
+  imagen:"./../assets/rutas/1APUNI.jpg",
   horario:"4:00-22:00 hrs",
   costo:"8 pesos",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/1A%P-UNI.kml"
+  kml:"1APUNI.kml"
 },
 {
   lin:"1B",
@@ -146,87 +146,87 @@ lineas=[
   costo:"8 pesos",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
+  kml:"1BTD.kml"
   },
 {
   lin:"1B",
   nombre:"Express Av de las Torres",
-  imagen:"./../assets/rutas/1B1.jpg",
+  imagen:"./../assets/rutas/1BET.jpg",
   horario:"4:00-22:00 hrs",
   costo:"8 pesos",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/1A%ET"
+  kml:"1BET.kml"
 },
 {
   lin:"2B",
   nombre:"Barrio Alto",
-  imagen:"",
+  imagen:"./../assets/rutas/2B.jpg",
   horario:"",
   costo:"",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/2B%BA"
+  kml:"2BBA.kml"
 },
 {
   lin:"2B",
   nombre:"Chihuahua Campa",
-  imagen:"",
+  imagen:"./../assets/rutas/2B.jpg",
   horario:"",
   costo:"",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
+  kml:"2BCHC.kml"
 },
 {
   lin:"2B",
   nombre:"Chihuahua Himno",
-  imagen:"",
+  imagen:"./../assets/rutas/2B.jpg",
   horario:"",
   costo:"",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
+  kml:"2BCHH.kml"
 },
 {
   lin:"2B",
   nombre:"Figueroa",
-  imagen:"",
+  imagen:"./../assets/rutas/2B.jpg",
   horario:"",
   costo:"",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/2B%F.kml"
+  kml:"2BF.kml"
 },
 {
   lin:"2B",
   nombre:"Sierra",
-  imagen:"",
+  imagen:"./../assets/rutas/2B.jpg",
   horario:"",
   costo:"",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/2B%BA.kml"
+  kml:"2BS.kml"
 },
 {
   lin:"2L",
   nombre:"Fronteriza por 16",
-  imagen:"",
+  imagen:"./../assets/rutas/2L.jpg",
   horario:"",
   costo:"",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master//2L%F16.kml"
+  kml:"2LF16.kml"
 },
 {
   lin:"2L",
   nombre:"Periodista",
-  imagen:"",
+  imagen:"./../assets/rutas/2L.jpg",
   horario:"",
   costo:"",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
+  kml:"2LP.kml"
 },
 {
   lin:"3A",
@@ -236,7 +236,7 @@ lineas=[
   costo:"",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
+  kml:"3AAP.kml"
 },
 {
   lin:"3A",
@@ -246,7 +246,7 @@ lineas=[
   costo:"",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/3A%A"
+  kml:"3AA.kml"
 },
 {
   lin:"3A",
@@ -256,288 +256,290 @@ lineas=[
   costo:"",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
+  kml:"3AV.kml"
 },
 {
   lin:"5A",
   nombre:"Cereso a Col km 20",
-  imagen:"./../assets/rutas/5A1.jpg",
+  imagen:"./../assets/rutas/5AC.jpg",
   horario:"",
   costo:"",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
+  kml:"5ACK20.kml"
 },
 {
   lin:"5A",
   nombre:"Cereso a Col Safari",
-  imagen:"./../assets/rutas/5A1.jpg",
+  imagen:"./../assets/rutas/5AC.jpg",
   horario:"",
   costo:"",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
+  kml:"5ACS.kml"
 },
 {
   lin:"5A",
   nombre:"Cereso por Eje Vial",
-  imagen:"./../assets/rutas/5A1.jpg",
+  imagen:"./../assets/rutas/5AC2.jpg",
   horario:"",
   costo:"",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/5A%CEV.kml"
+  kml:"5ACEV.kml"
 },
 {
   lin:"5A",
   nombre:"Pantoja",
-  imagen:"./../assets/rutas/5A1.jpg",
+  imagen:"./../assets/rutas/5AP.jpg",
   horario:"",
   costo:"",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
+  kml:"5AP.kml"
 },
 {
   lin:"5B",
   nombre:"Granjas Felipe",
-  imagen:"",
+  imagen:"./../assets/rutas/5BGF.jpg",
   horario:"",
   costo:"",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
+  kml:"5BGF.kml"
 },
 {
   lin:"5B",
   nombre:"Granjas Pavo Real",
-  imagen:"",
+  imagen:"./../assets/rutas/5BGPR.jpg",
   horario:"",
   costo:"",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
+  kml:"5BGPR.kml"
 },
 {
   lin:"5B",
   nombre:"Revolución por Eje",
-  imagen:"",
+  imagen:"./../assets/rutas/5BEV.jpg",
   horario:"",
   costo:"",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
+  kml:"5BRE.kml"
 },
 {
   lin:"5B",
   nombre:"Tercera por Curva",
-  imagen:"",
+  imagen:"./../assets/rutas/5BC.jpg",
   horario:"",
   costo:"",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
+  kml:"5BC.kml"
 },
 {
   lin:"5B",
   nombre:"Tercera por Eje Vial",
-  imagen:"",
+  imagen:"./../assets/rutas/5BEV.jpg",
   horario:"",
   costo:"",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
+  kml:"5BEV.kml"
 },
 {
   lin:"8A",
   nombre:"Curva",
-  imagen:"",
+  imagen:"./../assets/rutas/8AC.jpg",
   horario:"",
   costo:"",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
+  kml:"8AC.kml"
 },
 {
   lin:"8A",
   nombre:"Las locas",
-  imagen:"",
+  imagen:"./../assets/rutas/8ALL.jpg",
   horario:"",
   costo:"",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
+  kml:"8ALL.kml"
 },
 {
   lin:"8A",
   nombre:"Seguro Nuevo",
-  imagen:"",
+  imagen:"./../assets/rutas/8ASN.jpg",
   horario:"",
   costo:"",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
+  kml:"8ASN.kml"
 },
 {
   lin:"Juarez Aeropuerto",
   nombre:"Km 18 San Lorenzo",
-  imagen:"",
+  imagen:"./../assets/rutas/JA.jpg",
   horario:"",
   costo:"",
   inicio:"",
-  fin:""
+  fin:"JAK18SL.kml"
 },
 {
   lin:"Juarez Aeropuerto",
   nombre:"Erendida San Lorenzo",
-  imagen:"",
+  imagen:"./../assets/rutas/JASL.jpg",
   horario:"",
   costo:"",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
+  kml:"JAESL.kml"
 },
 {
   lin:"Juarez Aeropuerto",
   nombre:"Km 18 Centro",
-  imagen:"",
+  imagen:"./../assets/rutas/JA2.jpg",
   horario:"",
   costo:"",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
+  kml:"JAK18.kml"
 },
 {
   lin:"Juarez Aeropuerto",
   nombre:"Km 20 Mezquital Centro",
-  imagen:"",
+  imagen:"./../assets/rutas/JAK20MSL.jpg",
   horario:"",
   costo:"",
   inicio:"",
-  fin:""
+  fin:"JAK20MC"
 },
 {
   lin:"Juarez Aeropuerto",
   nombre:"Km 20 Mezquital San Lorenzo",
-  imagen:"",
+  imagen:"./../assets/rutas/JAK2000.jpg",
   horario:"",
   costo:"",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
+  kml:"JAK20MSL.kml"
 },
 {
   lin:"Juarez Aeropuerto",
   nombre:"Lucio Blanco",
-  imagen:"",
+  imagen:"./../assets/rutas/JA.jpg",
   horario:"",
   costo:"",
   inicio:"",
-  fin:""
+  fin:"",
+  kml:"JALB.kml"
 },
 {
   lin:"L4",
   nombre:"Fidel Velazquez",
-  imagen:"",
+  imagen:"./../assets/rutas/L4.jpg",
   horario:"",
   costo:"",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
+  kml:"L4FV.kml"
 },
 {
   lin:"8B",
   nombre:"Seguro Nuevo",
-  imagen:"",
+  imagen:"./../assets/rutas/8B.jpg",
   horario:"",
-  costo:"",
+  costo:"8",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
+  kml:"8BSN.kml"
 },
 {
   lin:"Linea 10",
   nombre:"Avicola Abajo",
-  imagen:"./../assets/rutas/L101.jpg",
+  imagen:"./../assets/rutas/10A.jpg",
   horario:"",
   costo:"",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
+  kml:"10A1.kml"
 },
 {
   lin:"Linea 10",
   nombre:"Avicola Arriba",
-  imagen:"./../assets/rutas/L101.jpg",
+  imagen:"./../assets/rutas/10A.jpg",
   horario:"",
   costo:"",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
+  kml:"10A2.kml"
 },
 {
   lin:"Linea 10",
   nombre:"Rancho Derecho",
-  imagen:"./../assets/rutas/L101.jpg",
+  imagen:"./../assets/rutas/10RD.jpg",
   horario:"",
   costo:"",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
+  kml:"10RD.kml"
 },
 {
   lin:"Linea 10",
   nombre:"Rancho Izquierda",
-  imagen:"./../assets/rutas/L101.jpg",
+  imagen:"./../assets/rutas/10RI.jpg",
   horario:"",
   costo:"",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
+  kml:"10RI.kml"
 },
 {
   lin:"Linea 10",
   nombre:"Rancho Poleo",
-  imagen:"./../assets/rutas/L101.jpg",
+  imagen:"./../assets/rutas/10RP.jpg",
   horario:"",
   costo:"",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
+  kml:"10RP.kml"
 },
 {
   lin:"Linea 10",
   nombre:"Retiro",
-  imagen:"./../assets/rutas/L101.jpg",
-  horario:"",
+  imagen:"./../assets/rutas/10R.jpg",
+  horario:"4:00-10:00",
   costo:"",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
+  kml:"10R.kml"
 },
 {
   lin:"Linea 10",
   nombre:"Sarabia abajo",
-  imagen:"./../assets/rutas/L101.jpg",
+  imagen:"./../assets/rutas/10S.jpg",
   horario:"",
   costo:"",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
+  kml:"10S1.kml"
 },
 {
   lin:"Linea 10",
   nombre:"Saravia arriba",
-  imagen:"./../assets/rutas/L101.jpg",
+  imagen:"./../assets/rutas/10S.jpg",
   horario:"",
   costo:"",
   inicio:"",
-  fin:""
+  fin:"",
+  kml:"10S2.kml"
 },
 {
-  lin:"Circumvalación",
+  lin:"Circunvalación",
   nombre:"",
-  imagen:"",
+  imagen:"./../assets/rutas/LC.jpg",
   horario:"",
   costo:"",
   inicio:"",
@@ -547,112 +549,112 @@ lineas=[
 {
   lin:"Mercado de Abastos",
   nombre:"Flores Magón",
-  imagen:"",
+  imagen:"./../assets/rutas/MA.jpg",
   horario:"",
   costo:"",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
+  kml:"MAFM.kml"
 },
 {
   lin:"Mercado de Abastos",
   nombre:"Galeana",
-  imagen:"",
+  imagen:"./../assets/rutas/MAG.jpg",
   horario:"",
   costo:"",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
+  kml:"MAG.kml"
 },
 {
   lin:"Mercado de Abastos",
   nombre:"Los ojitos",
-  imagen:"",
+  imagen:"./../assets/rutas/MA2.jpg",
   horario:"",
   costo:"",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
+  kml:"MAO.kml"
 },
 {
   lin:"Mercado de Abastos",
   nombre:"Palo Chino",
-  imagen:"",
+  imagen:"./../assets/rutas/MA.jpg",
   horario:"",
   costo:"",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
+  kml:"MAPC.kml"
 },
 {
   lin:"Universitaria",
   nombre:"Flores Magón",
-  imagen:"",
+  imagen:"./../assets/rutas/UNI.jpg",
   horario:"",
   costo:"",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
+  kml:"UNI.kml"
 },
 {
-  lin:"PU",
+  lin:"Permisionarios Unidos",
   nombre:"Granjero",
-  imagen:"",
+  imagen:"./../assets/rutas/PU1.jpg",
   horario:"",
   costo:"",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
+  kml:"PUG.kml"
 },
 {
-  lin:"PU",
+  lin:"Permisionarios Unidos",
   nombre:"Km30",
-  imagen:"",
+  imagen:"./../assets/rutas/PU2.jpg",
   horario:"",
   costo:"",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
+  kml:"PUK30"
 },
 {
-  lin:"PU",
+  lin:"Permisionarios Unidos",
   nombre:"Lomas",
-  imagen:"",
+  imagen:"./../assets/rutas/PU3.jpg",
   horario:"",
   costo:"",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
+  kml:"PUL.kml"
 },
 {
   lin:"Valle de Juarez",
-  nombre:"Riveras 1-4",
-  imagen:"",
+  nombre:"Riveras 1-6",
+  imagen:"./../assets/rutas/VJR16.jpg",
   horario:"",
   costo:"",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
+  kml:"VJR14.kml"
 },
 {
   lin:"Valle de Juarez",
-  nombre:"Riveras 6-8",
-  imagen:"",
+  nombre:"Riveras 7-8",
+  imagen:"./../assets/rutas/VJR78.jpg",
   horario:"",
   costo:"",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
+  kml:"VJR78.kml"
 },
 {
   lin:"Valle de Juarez",
   nombre:"Tierra Nueva segunda etapa",
-  imagen:"",
+  imagen:"./../assets/rutas/VJTN.jpg",
   horario:"",
   costo:"",
   inicio:"",
   fin:"",
-  kml:"https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/Linea%20Universitaria%20KML.kml"
+  kml:"VJTN.kml"
 }
 ];
 
