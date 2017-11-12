@@ -53,9 +53,8 @@ export class HomePage {
 
     var dir:string;
 
-    dir='https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/'+nKml;
-    window.alert('.'+dir+'.');
-
+    dir="https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/"+nKml;
+    
     var ctaLayer = new google.maps.KmlLayer({
               url: dir,
               //url: 'https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/10%20RI.kml',
