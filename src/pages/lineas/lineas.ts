@@ -126,7 +126,7 @@ lineas=[
   costo:"8 pesos",
   inicio:"",
   fin:"",
-  kml:"1APP.kml"
+  kml:"1APPE.kml"
 },
 {
   lin:"1A",
