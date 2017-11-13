@@ -589,12 +589,12 @@ lineas=[
 },
 {
   lin:"Universitaria",
-  nombre:"Flores Magón",
+  nombre:"",
   imagen:"./../assets/rutas/UNI.jpg",
   horario:"4:00-22:00 hrs",
   costo:"8 pesos",
-  inicio:"",
-  fin:"",
+  inicio:"C. Division del Norte",
+  fin:"C. Federico de la Vega Mathews",
   kml:"UNI.kml"
 },
 {
@@ -653,8 +653,8 @@ lineas=[
   imagen:"./../assets/rutas/VJTN.jpg",
   horario:"4:00-22:00 hrs",
   costo:"8 pesos",
-  inicio:"",
-  fin:"",
+  inicio:"C. Rivera de División",
+  fin:"C. Miguel Hidal y Costilla",
   kml:"VJTN.kml"
 }
 ];
