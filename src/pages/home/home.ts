@@ -35,7 +35,7 @@ export class HomePage {
     
     HomePage.mapa = new google.maps.Map(document.getElementById('map'), {
       center: {lat: 31.7333300, lng: -106.4833300},
-      zoom: 12
+      zoom: 11.5
     });
 
     //window.alert('initMap = '+HomePage.mapa);
@@ -61,7 +61,7 @@ export class HomePage {
               //url:'https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/1A%20BFM.kml',
               map: map/*this.map*/
             });
-
+            this.Ubicacion();
     //window.alert('1 Insertar '+/*this.*/map);
   }
 
@@ -79,7 +79,7 @@ export class HomePage {
         var marker = new google.maps.Marker({
           position: pos,
           map: HomePage.mapa,
-          title: "Tu posición"
+          title: "Mi posición"
         });
         
         HomePage.mapa.setCenter(pos);
