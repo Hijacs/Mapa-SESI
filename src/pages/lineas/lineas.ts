@@ -23,8 +23,8 @@ lineas=[
    imagen:"./../assets/rutas/1ABFM.jpg",
    horario:"4:00-22:00 hrs",
    costo:"8 pesos",
-   inicio:"",
-   fin:"",
+   inicio:"Federico de la Vega Mathews",
+   fin:"Francisco Membrilla",
    kml:"1ABFM.kml"
  },
  {
@@ -94,8 +94,8 @@ lineas=[
   imagen:"./../assets/rutas/1A1.jpg",
   horario:"4:00-22:00 hrs",
   costo:"8 pesos",
-  inicio:"",
-  fin:"",
+  inicio:"C. José de Jesus Macias Delgado",
+  fin:"C. Francisco Membrilla",
   kml:"1ALP.kml"
 },
 {
@@ -104,8 +104,8 @@ lineas=[
   imagen:"./../assets/rutas/1AMD.jpg",
   horario:"4:00-22:00 hrs",
   costo:"8 pesos",
-  inicio:"",
-  fin:"",
+  inicio:"C. Federico de la Vega Mathews",
+  fin:"C. Manuel Acuña",
   kml:"1AMD.kml"
 },
 {
@@ -114,8 +114,8 @@ lineas=[
   imagen:"./../assets/rutas/1AME2000.jpg",
   horario:"4:00-22:00 hrs",
   costo:"8 pesos",
-  inicio:"",
-  fin:"",
+  inicio:"C. Federico de la Vega Mathews",
+  fin:"C. Joaquin Terrazas",
   kml:"1AME2000.kml"
 },
 {
