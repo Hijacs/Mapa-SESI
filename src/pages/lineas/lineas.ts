@@ -204,8 +204,8 @@ lineas=[
   imagen:"./../assets/rutas/2B.jpg",
   horario:"4:00-22:00 hrs",
   costo:"8 pesos",
-  inicio:"",
-  fin:"",
+  inicio:"C. Isla Carolina",
+  fin:"C. Isla Carolina",
   kml:"2BS.kml"
 },
 {
@@ -214,8 +214,8 @@ lineas=[
   imagen:"./../assets/rutas/2L.jpg",
   horario:"4:00-22:00 hrs",
   costo:"8 pesos",
-  inicio:"",
-  fin:"",
+  inicio:"C. Juvenal Aragon Romo",
+  fin:"C. Sinaloa",
   kml:"2LF16.kml"
 },
 {
@@ -264,8 +264,8 @@ lineas=[
   imagen:"./../assets/rutas/5AC.jpg",
   horario:"4:00-22:00 hrs",
   costo:"8 pesos",
-  inicio:"",
-  fin:"",
+  inicio:"C. Ley 6 de Enero",
+  fin:"C. Miguel Ahumada",
   kml:"5ACK20.kml"
 },
 {
@@ -304,8 +304,8 @@ lineas=[
   imagen:"./../assets/rutas/5BGF.jpg",
   horario:"4:00-22:00 hrs",
   costo:"8 pesos",
-  inicio:"",
-  fin:"",
+  inicio:"C. Jacinto Benavente (Circunvalacion  Extremo)",
+  fin:"C. Internacional (Circunvalacion - Extremo)",
   kml:"5BGF.kml"
 },
 {
@@ -364,8 +364,8 @@ lineas=[
   imagen:"./../assets/rutas/8ALL.jpg",
   horario:"4:00-22:00 hrs",
   costo:"8 pesos",
-  inicio:"",
-  fin:"",
+  inicio:"C. Dr. Arrollo (Extremo Circunvalación)",
+  fin:"C. Ramón Rayón (Extremo Circunvalación)",
   kml:"8ALL.kml"
 },
 {
@@ -379,13 +379,24 @@ lineas=[
   kml:"8ASN.kml"
 },
 {
+  lin:"8B",
+  nombre:"Seguro Nuevo",
+  imagen:"./../assets/rutas/8B.jpg",
+  horario:"4:00-22:00 hrs",
+  costo:"8 pesos",
+  inicio:"C. Eduardo Barrios (Circunvalación)",
+  fin:"C. Ingeniero Bernardo Norzagaray (Circunvalación)",
+  kml:"8BSN.kml"
+},
+{
   lin:"Juarez Aeropuerto",
   nombre:"Km 18 San Lorenzo",
   imagen:"./../assets/rutas/JA.jpg",
   horario:"4:00-22:00 hrs",
   costo:"8 pesos",
   inicio:"",
-  fin:"JAK18SL.kml"
+  fin:"",
+  kml:"JAK18SL.kml"
 },
 {
   lin:"Juarez Aeropuerto",
@@ -414,7 +425,7 @@ lineas=[
   horario:"4:00-22:00 hrs",
   costo:"8 pesos",
   inicio:"",
-  fin:"JAK20MC"
+  fin:"JAK20MC.kml"
 },
 {
   lin:"Juarez Aeropuerto",
@@ -422,8 +433,8 @@ lineas=[
   imagen:"./../assets/rutas/JAK20MSL.jpg",
   horario:"4:00-22:00 hrs",
   costo:"8 pesos",
-  inicio:"",
-  fin:"",
+  inicio:"Av. Del Charro/Heróico Colegio Militar",
+  fin:"C.Miguel de la madrid / C. Luis Zapata",
   kml:"JAK20MSL.kml"
 },
 {
@@ -442,19 +453,9 @@ lineas=[
   imagen:"./../assets/rutas/L4.jpg",
   horario:"4:00-22:00 hrs",
   costo:"8 pesos",
-  inicio:"",
-  fin:"",
+  inicio:"C. Floricultores",
+  fin:"C. Ingacio Manuel Altamirano",
   kml:"L4FV.kml"
-},
-{
-  lin:"8B",
-  nombre:"Seguro Nuevo",
-  imagen:"./../assets/rutas/8B.jpg",
-  horario:"4:00-22:00 hrs",
-  costo:"8 pesos",
-  inicio:"",
-  fin:"",
-  kml:"8BSN.kml"
 },
 {
   lin:"Linea 10",
@@ -542,8 +543,8 @@ lineas=[
   imagen:"./../assets/rutas/LC.jpg",
   horario:"4:00-22:00 hrs",
   costo:"8 pesos",
-  inicio:"",
-  fin:"",
+  inicio:"C. Calzada del Río (Extremo)",
+  fin:"C. Cobre (Extremo)",
   kml:"LC.kml"
 },
 {
@@ -568,12 +569,12 @@ lineas=[
 },
 {
   lin:"Mercado de Abastos",
-  nombre:"Los ojitos",
+  nombre:"Los Ojitos",
   imagen:"./../assets/rutas/MA2.jpg",
   horario:"4:00-22:00 hrs",
   costo:"8 pesos",
-  inicio:"",
-  fin:"",
+  inicio:"C. Ingeniero David Herrera Jordán",
+  fin:"C. Vistas del Manantial de las Torres",
   kml:"MAO.kml"
 },
 {
@@ -614,7 +615,7 @@ lineas=[
   costo:"8 pesos",
   inicio:"",
   fin:"",
-  kml:"PUK30"
+  kml:"PUK30.kml"
 },
 {
   lin:"Permisionarios Unidos",
