@@ -74,8 +74,8 @@ lineas=[
   imagen:"./../assets/rutas/1AUNI2.jpg",
   horario:"4:00-22:00 hrs",
   costo:"8 pesos",
-  inicio:"",
-  fin:"",
+  inicio:"C. Senderos de Andalucia",
+  fin:"C. Francisco Membrilla",
   kml:"1AUNID.kml"
 },
 {
@@ -124,8 +124,8 @@ lineas=[
   imagen:"./../assets/rutas/1APP.jpg",
   horario:"4:00-22:00 hrs",
   costo:"8 pesos",
-  inicio:"",
-  fin:"",
+  inicio:"C. Fundadores de América",
+  fin:"C. Manuel Acuña",
   kml:"1APPE.kml"
 },
 {
@@ -154,8 +154,8 @@ lineas=[
   imagen:"./../assets/rutas/1BET.jpg",
   horario:"4:00-22:00 hrs",
   costo:"8 pesos",
-  inicio:"",
-  fin:"",
+  inicio:"C. Sierra Vista",
+  fin:"C. Joaquin Terrazas",
   kml:"1BET.kml"
 },
 {
@@ -184,8 +184,8 @@ lineas=[
   imagen:"./../assets/rutas/2B.jpg",
   horario:"4:00-22:00 hrs",
   costo:"8 pesos",
-  inicio:"",
-  fin:"",
+  inicio:"C. Antonio Soto y Gama",
+  fin:"C. Antonio Soto y Gama",
   kml:"2BCHH.kml"
 },
 {
@@ -194,8 +194,8 @@ lineas=[
   imagen:"./../assets/rutas/2B.jpg",
   horario:"4:00-22:00 hrs",
   costo:"8 pesos",
-  inicio:"",
-  fin:"",
+  inicio:"Mariano Escobedo",
+  fin:"Mariano Escobedo",
   kml:"2BF.kml"
 },
 {
