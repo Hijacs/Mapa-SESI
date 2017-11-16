@@ -59,6 +59,7 @@ export class HomePage {
               url: dir,
               //url: 'https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/10%20RI.kml',
               //url:'https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/1A%20BFM.kml',
+              suppressInfoWindows: true,
               map: map/*this.map*/
             });
             this.Ubicacion();
