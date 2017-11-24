@@ -1,0 +1,77 @@
+
+<ion-header>
+  
+    <ion-navbar color="sesiframe">
+      <ion-buttons left>
+        <button ion-button icon-only menuToggle><ion-icon name="menu"></ion-icon></button>
+  
+    </ion-buttons>
+      <ion-title>Iniciar SESIón</ion-title>
+    </ion-navbar>
+  
+  </ion-header>
+  
+  
+  <ion-content class="sesifondo">
+    <form #formulario="ngForm">
+      <ion-row class="sesifondo">
+        <ion-col>
+          <ion-item  class="sesifondo">
+            <ion-label floating>
+            Correo electrónico
+            </ion-label>
+              <ion-input type="email" required name="correo" ngModel></ion-input>
+          </ion-item>
+        </ion-col>
+      </ion-row >
+  
+      <ion-row >
+        <ion-col>
+          <ion-item class="sesifondo">
+            <ion-label floating>
+            Contraseña
+            </ion-label>
+            <ion-input type="password" required name="acceso" ngModel [minlength]="8">
+              
+            </ion-input>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+  
+      <ion-row>
+        <ion-col>
+          <ion-item  class="sesifondo">
+            <button ion-button large block color="sesiboton"  (click)="inicioDeSesion()">
+              Entrar
+            </button>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <ion-item class="sesifondo">
+            <a href="">¿Olvidaste tu contraseña?</a>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <ion-item  class="sesifondo">
+            <button ion-button block (click)="usuarioNuevo()">
+              Invitado
+            </button>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+    <ion-row>
+        <ion-col>
+        
+          <ion-item class="sesifondo">
+            <a href="">Acepto términos y condiciones</a>
+  
+          </ion-item>
+        </ion-col>
+      </ion-row>
+    </form>
+  
+  </ion-content>
