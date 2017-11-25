@@ -15,7 +15,7 @@
 				<button ion-item *ngIf="!usuarioConectado"
 				(click)="irAPagina(iniciarSesion)">Iniciar sesión</button>
 				 <!-- Para efectos de depuracion se debe colocar un ! antes de usuario conectado -->
-				<button ion-item *ngIf="usuarioConectado" 
+				<button ion-item *ngIf="!usuarioConectado" 
 				(click)="irAPagina(mapaPrincipal)">Mapa</button>
 				<button ion-item *ngIf="!usuarioConectado"
 				(click)="irAPagina(lineas)">Lineas</button>
