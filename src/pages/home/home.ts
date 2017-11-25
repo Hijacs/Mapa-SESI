@@ -2,6 +2,7 @@ import { LineasPage } from './../lineas/lineas';
 import { Component, ViewChild, ElementRef, Injectable } from '@angular/core';
 import { NavController, AlertController } from 'ionic-angular';
 import { Geolocation } from '@ionic-native/geolocation';
+//import { Places } from '@ionic-native/google-maps';
 
 declare var google;
 //declare var map;
@@ -16,15 +17,21 @@ export class HomePage {
  
   @ViewChild('map') mapElement: ElementRef;
   public static mapa;
- 
+  public barraActiva=false; 
+  public latitude: number;
+  public longitude: number;
+  search: string;
+
   constructor(public navCtrl: NavController, public geolocation: Geolocation, 
-    public alertCtrl: AlertController) {  
-         
-    }
+    public alertCtrl: AlertController) {    }
+
+  barraBuscadora(){
+    this.barraActiva=!(this.barraActiva);
+  }
  
   ionViewDidLoad(){
     HomePage.mapa=this.initMap();
-    window.alert('ionView = '+HomePage.mapa);
+    //window.alert('ionView = '+HomePage.mapa);
     return HomePage.mapa;
   }
   
@@ -38,6 +45,17 @@ export class HomePage {
     });
 
     //window.alert('initMap = '+HomePage.mapa);
+
+    let input = document.getElementById('start');
+    let autocomplete = new google.maps.places.Autocomplete(input);
+   
+    google.maps.event.addListener(autocomplete, 'place_changed', () => {
+      let place = autocomplete.getPlace();
+      this.latitude = place.geometry.location.lat();
+      this.longitude = place.geometry.location.lng();
+      alert(this.latitude + ", " + this.longitude);
+      console.log(place);
+    });
 
     if(dir=='ubicacion'){
       this.Ubicacion();
