@@ -16,7 +16,7 @@
 </ion-header>
 
 <ion-content>
-  <!--<div id="floating-panel">
+  <div id="floating-panel">
     <b>Origen: </b>
     <input type="text" size="23%" id="start" name="from" value="Parque central, ciudad juarez" />
 
@@ -45,8 +45,14 @@
       </ion-item>
 
     </ion-list>
-  </div>-->
+  </div>
 
   <div #map id="map"></div>
+
+  <ion-fab center bottom>
+    <button ion-fab color="sesiboton" (click)="barraBuscadora()">
+      <ion-icon name="search"></ion-icon>
+    </button>
+  </ion-fab>
 
 </ion-content>
