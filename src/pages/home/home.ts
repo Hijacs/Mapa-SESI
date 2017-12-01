@@ -74,8 +74,8 @@ export class HomePage {
     nKml='https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/'+nKml;
 
     var ctaLayer = new google.maps.KmlLayer({
-              //url: nKml,
-              url: 'https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/1A%20Bosques%20Finca%20Morelos.kml',
+              url: nKml,
+              //url: 'https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/1A%20Bosques%20Finca%20Morelos.kml',
               map: map/*this.map*/
             });
 

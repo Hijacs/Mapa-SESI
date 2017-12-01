@@ -55,7 +55,7 @@ lineas=[
    costo:"8 pesos",
    inicio:"",
    fin:"",
-   kml:"1APD"
+   kml:"1APD.kml"
  
  },
  {
