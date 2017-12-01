@@ -49,13 +49,14 @@ export class HomePage {
     let input = document.getElementById('start');
     let autocomplete = new google.maps.places.Autocomplete(input);
    
+    /*
     google.maps.event.addListener(autocomplete, 'place_changed', () => {
       let place = autocomplete.getPlace();
       this.latitude = place.geometry.location.lat();
       this.longitude = place.geometry.location.lng();
       alert(this.latitude + ", " + this.longitude);
       console.log(place);
-    });
+    });*/
 
     if(dir=='ubicacion'){
       this.Ubicacion();
