@@ -47,7 +47,7 @@ export class HomePage {
     //window.alert('initMap = '+HomePage.mapa);
 
     let input = document.getElementById('start');
-    let autocomplete = new google.maps.places.Autocomplete(input);
+    //let autocomplete = new google.maps.places.Autocomplete(input);
    
     /*
     google.maps.event.addListener(autocomplete, 'place_changed', () => {
