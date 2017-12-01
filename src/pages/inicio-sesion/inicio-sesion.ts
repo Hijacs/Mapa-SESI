@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, AlertController } from 'ionic-angular';
+import { NgForm } from '@angular/forms';
+import { AutSesiProvider } from './../../providers/aut-sesi/aut-sesi';
 
 /**
  * Generated class for the InicioSesionPage page.
