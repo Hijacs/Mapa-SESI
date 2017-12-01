@@ -1,8 +1,6 @@
-//import { LineasPage } from './../lineas/lineas';
 import { Component, ViewChild, ElementRef, Injectable } from '@angular/core';
 import { NavController, AlertController } from 'ionic-angular';
 import { Geolocation } from '@ionic-native/geolocation';
-//import { Places } from '@ionic-native/google-maps';
 
 declare var google;
 //declare var map;
@@ -18,11 +16,6 @@ export class HomePage {
   @ViewChild('map') mapElement: ElementRef;
   public static mapa;
   public barraActiva=false; 
-
-  /*
-  public latitude: number;
-  public longitude: number;
-  search: string;*/
 
   constructor(public navCtrl: NavController, public geolocation: Geolocation, 
     public alertCtrl: AlertController) {    }
@@ -49,16 +42,6 @@ export class HomePage {
     //window.alert('initMap = '+HomePage.mapa);
 
     let input = document.getElementById('start');
-    //let autocomplete = new google.maps.places.Autocomplete(input);
-   
-    /*
-    google.maps.event.addListener(autocomplete, 'place_changed', () => {
-      let place = autocomplete.getPlace();
-      this.latitude = place.geometry.location.lat();
-      this.longitude = place.geometry.location.lng();
-      alert(this.latitude + ", " + this.longitude);
-      console.log(place);
-    });*/
 
     if(dir=='ubicacion'){
       this.Ubicacion();
@@ -69,6 +52,11 @@ export class HomePage {
     //var infoWindow = new google.maps.InfoWindow({map: map});
   }
   
+  clacularRuta(){
+    
+
+  }
+
   InsertarKML(map, nKml:any){
 
     var dir:string;
@@ -77,7 +65,6 @@ export class HomePage {
 
     var ctaLayer = new google.maps.KmlLayer({
               url: nKml,
-              //url: 'https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/1A%20Bosques%20Finca%20Morelos.kml',
               map: map/*this.map*/
             });
 
