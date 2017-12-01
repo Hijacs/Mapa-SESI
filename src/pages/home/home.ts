@@ -18,6 +18,7 @@ export class HomePage {
   @ViewChild('map') mapElement: ElementRef;
   public static mapa;
   public barraActiva=false; 
+
   public latitude: number;
   public longitude: number;
   search: string;
