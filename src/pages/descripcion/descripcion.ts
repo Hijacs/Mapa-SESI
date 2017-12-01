@@ -37,7 +37,7 @@ constructor(public navCtrl: NavController, public navParams: NavParams,
 
         //window.alert('map = '+this.map);
 
-        switch(nKml){
+       /* switch(nKml){
           case '1A Bosques Finca Morelos':
               nKml='1A BFM';
           break;
@@ -114,7 +114,7 @@ constructor(public navCtrl: NavController, public navParams: NavParams,
 
           break;
 
-        }
+        }*/
 
         this.homePage.InsertarKML(this.map, nKml);
     });
