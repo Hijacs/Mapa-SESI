@@ -8,6 +8,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
  */
+var linkRuta='https://github.com/Slar04/Departamento-de-Sistemas-/tree/master/rutas/';
 
 @IonicPage()
 @Component({
@@ -16,11 +17,12 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class LineasPage {
   descripcionPage=DescripcionPage;
+
 lineas=[
   {
     lin:"1A",
     nombre:"Bosques Finca Morelos",
-    imagen:"./../assets/rutas/1ABFM.jpg",
+    imagen:linkRuta+"1ABFM",//"./../assets/rutas/1ABFM.jpg",
     horario:"4:00-22:00 hrs",
     costo:"8 pesos",
     inicio:"Federico de la Vega Mathews",
