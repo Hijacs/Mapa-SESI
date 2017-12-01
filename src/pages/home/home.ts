@@ -71,7 +71,7 @@ export class HomePage {
 
     var dir:string;
 
-    nKml='https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/'+nKml;
+    nKml='https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/kml/'+nKml;
 
     var ctaLayer = new google.maps.KmlLayer({
               url: nKml,

@@ -31,7 +31,7 @@ constructor(public navCtrl: NavController, public navParams: NavParams,
   KML(nKml){
     
     this.navCtrl.setRoot(HomePage);
-    window.alert('kml = '+this.map);
+   // window.alert('kml = '+nKml);
     
     $(document).ready(() => {
         this.map = this.homePage.ionViewDidLoad();
