@@ -9,13 +9,19 @@
 
 	<ion-content>
 		
-			<ion-list>
-				<button ion-item (click)="irAPagina(paginaPrincipal)">Página principal</button>
-                <button ion-item (click)="irAPagina(iniciarSesion)">Iniciar sesión</button>
-                <button ion-item (click)="irAPagina(mapaPrincipal)">Mapa</button>
-                <button ion-item (click)="irAPagina(lineas)">Lineas</button>
-				<button ion-item (click)="cerrarSesion()">Cerrar sesión</button>
-			</ion-list>
+		<ion-list>
+			<button ion-item 
+			 (click)="irAPagina(paginaPrincipal)">Página principal</button>
+			<button ion-item *ngIf="!usuarioConectado"
+			(click)="irAPagina(iniciarSesion)">Iniciar sesión</button>
+			 <!-- Para efectos de depuracion se debe colocar un ! antes de usuario conectado -->
+			<button ion-item *ngIf="!usuarioConectado" 
+			(click)="irAPagina(mapaPrincipal)">Mapa</button>
+			<button ion-item
+			(click)="irAPagina(lineas)">Lineas</button>
+			<button ion-item *ngIf="usuarioConectado"
+			(click)="cerrarSesion()">Cerrar sesión</button>
+		</ion-list>
 		
 	</ion-content>
 </ion-menu>

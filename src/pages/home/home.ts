@@ -52,8 +52,13 @@ export class HomePage {
     //var infoWindow = new google.maps.InfoWindow({map: map});
   }
   
-  clacularRuta(){
+  calcularRuta(){
     
+    var marker = new google.maps.Marker({
+      position: {},
+      //map: map,
+      title: "Tu posición"
+    });
 
   }
 
