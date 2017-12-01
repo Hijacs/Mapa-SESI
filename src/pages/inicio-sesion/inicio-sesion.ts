@@ -13,13 +13,11 @@ export class InicioSesionPage {
   usuario={email:'',password:''};
 
   constructor(public navCtrl: NavController,
-     public navParams: NavParams
-     ,public autSesi:AutSesiProvider,
-     public alertCtrl:AlertController
-  ) {
-  }
+     public navParams: NavParams,
+     public autSesi:AutSesiProvider,
+     public alertCtrl:AlertController) { }
 
-  usuarioNuevo(){
+  /*usuarioNuevo(){
    this.autSesi.registrarse(this.usuario.email,this.usuario.password)
    .then((usuario)=>{
      let alert=this.alertCtrl.create({
@@ -57,9 +55,7 @@ export class InicioSesionPage {
        });
        alert.present();
     })
-
-    
-  }
+  }*/
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad InicioSesionPage');
