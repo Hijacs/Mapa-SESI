@@ -1,4 +1,4 @@
-import { LineasPage } from './../lineas/lineas';
+//import { LineasPage } from './../lineas/lineas';
 import { Component, ViewChild, ElementRef, Injectable } from '@angular/core';
 import { NavController, AlertController } from 'ionic-angular';
 import { Geolocation } from '@ionic-native/geolocation';
@@ -19,9 +19,10 @@ export class HomePage {
   public static mapa;
   public barraActiva=false; 
 
+  /*
   public latitude: number;
   public longitude: number;
-  search: string;
+  search: string;*/
 
   constructor(public navCtrl: NavController, public geolocation: Geolocation, 
     public alertCtrl: AlertController) {    }
