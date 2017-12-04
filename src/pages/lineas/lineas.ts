@@ -660,33 +660,47 @@ export class LineasPage {
     }
   ];
   opcionSeleccionada: any;
-  listaRutas: Array<{ lin: string, nombre: string, imagen:string,horario:string }>;
+  listaRutas: Array<{ lin: string}>;
+  listaFinal: Array<{ lin: string, nombre: string, imagen:string,horario:string }>;
   ultimaLinea = "";
   nivel=false;
 
   constructor(public navCtrl: NavController, public navParams: NavParams, private alertCtrl:AlertController) {
-    this.opcionSeleccionada = navParams.get('item');
-
+    this.opcionSeleccionada = navParams.data;
+    let alerta=this.alertCtrl.create({
+      title:'Ventana de observacion',
+      subTitle:'pixie'+this.opcionSeleccionada+'dixie',
+      buttons:['Ok']
+    });
     this.listaRutas = [];
-    if(!this.nivel){
+    if(this.opcionSeleccionada==undefined){
+      alerta.present();
       for (let linea of this.lineas) {
-        /*let alert= this.alertCtrl.create({
-          title:'Ventana de observación',
-          subTitle:this.ultimaLinea,
-          buttons:['Ok']
-        });*/
+     
         if (linea.lin != this.ultimaLinea) {
+           
           this.listaRutas.push({
+            lin: linea.lin
+          });
+        }
+        this.ultimaLinea = linea.lin;
+      }
+      this.nivel=true;
+    } else{
+      //
+    for (let linea of this.lineas) {
+        alerta.present(); 
+        if (linea.lin == this.opcionSeleccionada) {
+          this.listaFinal.push({
             lin: linea.lin,
             nombre: linea.nombre,
             imagen: linea.imagen,
             horario: linea.horario
           });
         }
-
-        this.ultimaLinea = linea.lin;
-
+      
       }
+        
     }
     
     

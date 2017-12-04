@@ -20,9 +20,16 @@
 <ion-content padding class="imagenX">
   <ion-list class="sesifondo">
     <button id="nombreRuta" ion-item 
+      *ngFor="let ruta of listaRutas" 
+      (click)="lineaSelecionada($event, item)">
+    {{ruta.lin}}
+    </button>
+  </ion-list>
+  <ion-list class="sesifondo" *ngIf="opcionSeleccionada">
+    <button id="nombreRuta" ion-item 
     [navPush]="descripcionPage"
-    [navParams]=linea
-    *ngFor="let ruta of listaRutas" >
+    [navParams]=ruta
+    *ngFor="let ruta of listaFinal" >
     {{ruta.lin}}
     </button>
   </ion-list>
