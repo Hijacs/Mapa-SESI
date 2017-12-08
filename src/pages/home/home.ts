@@ -16,6 +16,7 @@ export class HomePage {
   @ViewChild('map') mapElement: ElementRef;
   public static mapa;
   public barraActiva=false; 
+<<<<<<< HEAD
   constructor(public navCtrl: NavController, public geolocation: Geolocation, 
     public alertCtrl: AlertController) {  
          
@@ -23,6 +24,16 @@ export class HomePage {
     barraBuscadora(){
       this.barraActiva=!(this.barraActiva);
       }
+=======
+
+  constructor(public navCtrl: NavController, public geolocation: Geolocation, 
+    public alertCtrl: AlertController) {    }
+
+  barraBuscadora(){
+    this.barraActiva=!(this.barraActiva);
+  }
+ 
+>>>>>>> Combinacion
   ionViewDidLoad(){
     HomePage.mapa=this.initMap();
     //window.alert('ionView = '+HomePage.mapa);
@@ -40,6 +51,8 @@ export class HomePage {
 
     //window.alert('initMap = '+HomePage.mapa);
 
+    let input = document.getElementById('start');
+
     if(dir=='ubicacion'){
       this.Ubicacion();
       //this.InsertarKML(HomePage.mapa);
@@ -49,10 +62,21 @@ export class HomePage {
     //var infoWindow = new google.maps.InfoWindow({map: map});
   }
   
+  calcularRuta(){
+    
+    var marker = new google.maps.Marker({
+      position: {},
+      //map: map,
+      title: "Tu posición"
+    });
+
+  }
+
   InsertarKML(map, nKml:any){
 
     var dir:string;
 
+<<<<<<< HEAD
     dir="https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/"+nKml;
     
     var ctaLayer = new google.maps.KmlLayer({
@@ -60,6 +84,12 @@ export class HomePage {
               //url: 'https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/10%20RI.kml',
               //url:'https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/1A%20BFM.kml',
               suppressInfoWindows: true,
+=======
+    nKml='https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/kml/'+nKml;
+
+    var ctaLayer = new google.maps.KmlLayer({
+              url: nKml,
+>>>>>>> Combinacion
               map: map/*this.map*/
             });
             this.Ubicacion();

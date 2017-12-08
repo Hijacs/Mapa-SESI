@@ -22,6 +22,7 @@ constructor(public navCtrl: NavController, public navParams: NavParams,
   this.map=this.map;
   }
 
+<<<<<<< HEAD
   KML(nKml:any){
     this.navCtrl.push(HomePage);
    
@@ -31,6 +32,17 @@ constructor(public navCtrl: NavController, public navParams: NavParams,
         this.map = this.homePage.ionViewDidLoad();
 
         //window.alert('map = '+nKml);
+=======
+  KML(nKml){
+    
+    this.navCtrl.setRoot(HomePage);
+   // window.alert('kml = '+nKml);
+    
+    $(document).ready(() => {
+        this.map = this.homePage.ionViewDidLoad();
+
+        //window.alert('map = '+this.map);
+>>>>>>> Combinacion
 
         this.homePage.InsertarKML(this.map, nKml);
     });
