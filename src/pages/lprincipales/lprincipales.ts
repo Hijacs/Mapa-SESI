@@ -1,12 +1,9 @@
-import { DescripcionPage } from './../descripcion/descripcion';
+import { LineasPage } from './../lineas/lineas';
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams, AlertController } from 'ionic-angular';
-import { Alert } from 'ionic-angular/components/alert/alert';
-import { LprincipalesPage } from '../lprincipales/lprincipales';
-
+import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 /**
- * Generated class for the LineasPage page.
+ * Generated class for the LprincipalesPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -14,11 +11,12 @@ import { LprincipalesPage } from '../lprincipales/lprincipales';
 
 @IonicPage()
 @Component({
-  selector: 'page-lineas',
-  templateUrl: 'lineas.html',
+  selector: 'page-lprincipales',
+  templateUrl: 'lprincipales.html',
 })
-export class LineasPage {
-  descripcionPage = DescripcionPage;
+export class LprincipalesPage {
+
+  lineasPage = LineasPage;
   lineas = [
     {
       lin: "1A",
@@ -428,8 +426,7 @@ export class LineasPage {
       horario: "4:00-22:00 hrs",
       costo: "8 pesos",
       inicio: "",
-      fin: "JAK20MC.kml",
-      kml: ""
+      fin: "JAK20MC.kml"
     },
     {
       lin: "Juarez Aeropuerto",
@@ -663,35 +660,33 @@ export class LineasPage {
     }
   ];
 
+  listaRutas: Array<{ lin: string }>;
+  ultimaLinea = "";
 
-  listaFinal: Array<{ lin: string, nombre: string, imagen: string, horario: string,costo:string,inicio:string, fin:string,kml:string}>;
   opcionSeleccionada: any;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, private alertCtrl: AlertController) {
-
+  constructor(public navCtrl: NavController, public navParams: NavParams) {
     this.opcionSeleccionada = navParams.data;
-    this.listaFinal = [];
+
+    this.listaRutas = [];
 
     for (let linea of this.lineas) {
 
-      if (linea.lin == this.opcionSeleccionada.lin) {
-        this.listaFinal.push({
-          lin: linea.lin,
-          nombre: linea.nombre,
-          imagen: linea.imagen,
-          horario: linea.horario, 
-          costo: linea.costo,
-          inicio: linea.inicio,
-          fin: linea.fin,
-          kml:linea.kml
+      if (linea.lin != this.ultimaLinea) {
+        this.listaRutas.push({
+          lin: linea.lin
         });
       }
+      this.ultimaLinea = linea.lin;
     }
+
+
+
   }
 
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad LineasPage');
+    console.log('ionViewDidLoad LprincipalesPage');
   }
 
 }
