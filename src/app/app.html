@@ -17,8 +17,13 @@
 				 <!-- Para efectos de depuracion se debe colocar un ! antes de usuario conectado -->
 				<button ion-item *ngIf="!usuarioConectado" 
 				(click)="irAPagina(mapaPrincipal)">Mapa</button>
+<<<<<<< HEAD
 				<button ion-item
 				(click)="irAPagina(lineas)">Lineas</button>
+=======
+				<button ion-item 
+				(click)="irAPagina(lineasPrincipales)">Lineas</button>
+>>>>>>> kmlBusqueda
 				<button ion-item *ngIf="usuarioConectado"
 				(click)="cerrarSesion()">Cerrar sesión</button>
 			</ion-list>

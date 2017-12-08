@@ -17,6 +17,7 @@
 .sesifondo{
     color: #fff;
     background-color: #226865;
+    opacity: .6;
 }
 .sesilogo2{
     color: #fff;
@@ -42,3 +43,11 @@
     font-size:  10px;
     font-style: normal;
 }
+.imagenX{
+        font-family: Candara;
+        font-size:  16px;
+        font-style: normal;
+        color: black;
+        background-image: url("../../assets/paginaInicial/x.png");
+        background-size: 100% 100%;
+    }

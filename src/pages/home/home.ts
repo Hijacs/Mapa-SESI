@@ -1,7 +1,7 @@
 import { Component, ViewChild, ElementRef, Injectable } from '@angular/core';
 import { NavController, AlertController } from 'ionic-angular';
 import { Geolocation } from '@ionic-native/geolocation';
-
+import geojeson from 'geojson';
 declare var google;
 //declare var map;
  
@@ -99,6 +99,9 @@ export class HomePage {
                           'No se permite geolocalización.' :
                           'El navegador no soporta geolocalización.');
   }
+}
+puntoCercano(){
+
 }
  //PARA ARRIBA
 }

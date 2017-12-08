@@ -1,0 +1,21 @@
+<ion-header>
+
+  <ion-navbar color="sesiframe">
+    <ion-buttons left>
+      <button ion-button icon-only menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title>Lineas principales</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-list class="sesifondo">
+    <button id="nombreRuta" ion-item [navPush]="lineasPage" [navParams]=ruta *ngFor="let ruta of listaRutas">
+      <ion-icon name="bus"></ion-icon>    {{ruta.lin}}
+    </button>
+  </ion-list>
+</ion-content>
