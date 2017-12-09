@@ -15,17 +15,20 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content>
+<<<<<<< HEAD
+<ion-content >
   <div *ngIf=barraActiva id="floating-panel">
+=======
+<ion-content>
+  <div *ngIf="barraActiva" id="floating-panel">
+>>>>>>> Combinacion
     <b>Origen: </b>
     <input type="text" size="23%" id="start" name="from" value="Parque central, ciudad juarez" />
 
-    <br>
-    <br>
     <b>Destino: </b>
     <input type="text" size="20%" id="end" name="from" value="" />
 
-    <input name="submit" type="submit" value="Ir" onclick="calculateAndDisplayRoute()" />
+    <input name="submit" type="submit" value="Ir" onclick="calcularRuta()" />
 
     <ion-list radio-group [(ngModel)]="Opciones">
       <br>
@@ -48,9 +51,19 @@
   </div>
 
   <div #map id="map"></div>
+<<<<<<< HEAD
 <ion-fab center bottom>
   <button ion-fab color="sesiboton" (click)="barraBuscadora()">
     <ion-icon name="search"></ion-icon>
   </button>
 </ion-fab>
+=======
+
+  <ion-fab center bottom>
+    <button ion-fab color="sesiboton" (click)="barraBuscadora()">
+      <ion-icon name="search"></ion-icon>
+    </button>
+  </ion-fab>
+
+>>>>>>> Combinacion
 </ion-content>

@@ -3,12 +3,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { HomePage } from './../home/home';
 import * as $ from 'jquery';
 
-/**
- * Generated class for the DescripcionPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
+
 
 @IonicPage()
 @Component({
@@ -27,6 +22,7 @@ constructor(public navCtrl: NavController, public navParams: NavParams,
   this.map=this.map;
   }
 
+<<<<<<< HEAD
   KML(nKml:any){
     this.navCtrl.push(HomePage);
    
@@ -36,6 +32,17 @@ constructor(public navCtrl: NavController, public navParams: NavParams,
         this.map = this.homePage.ionViewDidLoad();
 
         //window.alert('map = '+nKml);
+=======
+  KML(nKml){
+    
+    this.navCtrl.setRoot(HomePage);
+   // window.alert('kml = '+nKml);
+    
+    $(document).ready(() => {
+        this.map = this.homePage.ionViewDidLoad();
+
+        //window.alert('map = '+this.map);
+>>>>>>> Combinacion
 
         this.homePage.InsertarKML(this.map, nKml);
     });
