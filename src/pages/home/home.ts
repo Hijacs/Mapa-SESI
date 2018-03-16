@@ -1,7 +1,7 @@
 import { Component, ViewChild, ElementRef, Injectable } from '@angular/core';
 import { NavController, AlertController } from 'ionic-angular';
 import { Geolocation } from '@ionic-native/geolocation';
-import geojeson from 'geojson';
+
 declare var google;
 //declare var map;
  
@@ -41,8 +41,6 @@ export class HomePage {
 
     //window.alert('initMap = '+HomePage.mapa);
 
-    let input = document.getElementById('start');
-
     if(dir=='ubicacion'){
       this.Ubicacion();
       //this.InsertarKML(HomePage.mapa);
@@ -52,16 +50,6 @@ export class HomePage {
     //var infoWindow = new google.maps.InfoWindow({map: map});
   }
   
-  calcularRuta(){
-    
-    var marker = new google.maps.Marker({
-      position: {},
-      //map: map,
-      title: "Tu posición"
-    });
-
-  }
-
   InsertarKML(map, nKml:any){
 
     var dir:string;
@@ -111,9 +99,6 @@ export class HomePage {
                           'No se permite geolocalización.' :
                           'El navegador no soporta geolocalización.');
   }
-}
-puntoCercano(){
-
 }
  //PARA ARRIBA
 }

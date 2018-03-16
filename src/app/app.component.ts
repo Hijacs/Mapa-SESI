@@ -1,4 +1,3 @@
-import { LprincipalesPage } from './../pages/lprincipales/lprincipales';
 import { Component,ViewChild } from '@angular/core';
 import { Platform, NavController,MenuController } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
@@ -20,7 +19,6 @@ export class MyApp {
   paginaPrincipal=PaginaInicialPage;
   iniciarSesion=InicioSesionPage;
   lineas=LineasPage;
-  lineasPrincipales=LprincipalesPage;
   usuarioConectado=false;
 @ViewChild('paginas') paginas:NavController;
 

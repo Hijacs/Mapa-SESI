@@ -15,7 +15,6 @@ import { PaginaInicialPage } from './../pages/pagina-inicial/pagina-inicial';
 import { InicioSesionPage } from './../pages/inicio-sesion/inicio-sesion';
 import { LineasPage } from './../pages/lineas/lineas';
 import { HomePage } from '../pages/home/home';
-import { LprincipalesPage } from '../pages/lprincipales/lprincipales';
 //import { Storage } from '@ionic/storage';
 
 export const firebaseConfig={
@@ -50,8 +49,7 @@ apiKey: "AIzaSyBDcTLGhx6yzgZlXCrjyBz6DgDdvnqLDu0",
     HomePage,
     InicioSesionPage,
     LineasPage,
-    DescripcionPage,
-    LprincipalesPage
+    DescripcionPage
   ],
   imports: [
     BrowserModule,
@@ -67,8 +65,7 @@ apiKey: "AIzaSyBDcTLGhx6yzgZlXCrjyBz6DgDdvnqLDu0",
     HomePage,
     InicioSesionPage,
     LineasPage,
-    DescripcionPage,
-    LprincipalesPage
+    DescripcionPage
   ],
   providers: [
     StatusBar,
