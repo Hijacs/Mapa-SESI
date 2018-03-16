@@ -54,12 +54,13 @@ export class HomePage {
 
     var dir:string;
 
+    
     dir="https://raw.githubusercontent.com/Slar04/Departamento-de-Sistemas-/master/kml/"+nKml;
 
     
    
     var ctaLayer = new google.maps.KmlLayer({
-              url: nKml,
+              url: dir/*nKml*/,
               map: map/*this.map*/
             });
             this.Ubicacion();
